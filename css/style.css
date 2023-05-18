@@ -8,35 +8,28 @@
 }
 
 /*--------header--------*/
-
-.imagenapellidos {
-        display: flex;
-        justify-content: center;
+.logoinicial {display: flex;justify-content: center;
 }
 
-.imagenapellidos img {
-        width: 600px;
-        height: 200px;
-}
-
-header div img {
-        width: 180px;
-        height: 180px;
+.logoinicial img{width: 550px;height: auto;
 }
 
 header nav ul li a {
         text-decoration: none;
-        color: #C7BBDD;
         font-size: 2rem;
         font-family: 'Fredoka', sans-serif;
-        font-weight: 300;
+        font-weight: 200;
 }
+
+.collapse{display:flex;justify-content:center;}
+
+
 
 /*--------main--------*/
 .hero h1 {
         color: #B4DDDC;
         font-family: 'Fredoka', sans-serif;
-        font-size: 4rem;
+        font-size: 3rem;
         font-style: normal;
         font-weight: 300;
         display: flex;
@@ -49,23 +42,20 @@ header nav ul li a {
 
 .hero p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 1.7rem;
+        font-size: 1.3rem;
         padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.5rem; margin-top: 2rem;
+        margin-right: 8rem;
+        margin-bottom: 1rem;
+        margin-left: 8rem;
 }
 
-.hero p {
-        margin-top: 2rem;
-        margin-right: 5rem;
-        margin-bottom: 1rem;
-        margin-left: 5rem;
-}
 
 
 .redes h2 {
         color: #C7BBDD;
         font-family: 'Fredoka', sans-serif;
-        font-size: 4rem;
+        font-size: 3rem;
         font-style: normal;
         font-weight: 300;
         padding-right: 3rem;
@@ -80,13 +70,13 @@ header nav ul li a {
 
 .redes div {
         display: flex;
-        justify-content: space-around;
+        justify-content:space-evenly;
         flex-wrap: wrap;
 }
 
 .redes img {
-        width: 25rem;
-        height: 25rem;
+        width: 300px;
+        height: auto;
         border: #B4DDDC solid;
         padding-top: 1rem;
         padding-left: 1rem;
@@ -145,7 +135,7 @@ footer {
 .grid-diseño {
         display: flex;
         justify-content: right;
-        margin-right: 5rem;
+        margin-right: 1rem;
 }
 
 .grid-contacto {
@@ -153,21 +143,22 @@ footer {
         text-decoration: none;
         font-family: 'Fredoka', sans-serif;
         font-weight: 300;
-        font-size: 3rem;
+        font-size: 2rem;
+        margin-left: 1rem;
 }
 
 .grid-info ul li {
-        margin-left: 2rem;
+        margin-left: 1.5rem;
         font-style: normal;
         font-family: 'Fredoka', sans-serif;
         color: white;
         font-size: 1.5rem;
         margin-bottom: 2rem;
-        list-style: circle;
+        list-style: circle;font-weight: 300;
 }
 
-.grid-frase {
-        font-size: 2rem;
+.grid-frase {font-weight: 200;
+        font-size: 1.5rem;
         font-family: 'Fredoka', sans-serif;
         color: white;
         display: flex;
@@ -185,7 +176,7 @@ footer {
 
 .perfil_contadoras {
         font-family: 'Fredoka', sans-serif;
-        font-size: 4rem;
+        font-size: 3.2rem;
         font-weight: 300;
         color: #B4DDDC;
         margin-top: 4rem;
@@ -194,14 +185,14 @@ footer {
 
 .perfil_contadoratroiani {
         font-family: 'Fredoka', sans-serif;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 200;
         margin-left: 2rem;
         color: #F7C6C6;
 }
 
 .separacion img {
-        width: 500px;
+        width: 300px; height: auto;
         margin-left: 2rem;
         box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
         -webkit-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
@@ -215,7 +206,7 @@ footer {
 
 .separacion p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin-right: 2rem;
         margin-left: 2rem;
         margin-top: 1.3rem;
@@ -225,14 +216,15 @@ footer {
         display: flex;
         flex-direction: row-reverse;
         font-family: 'Fredoka', sans-serif;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 200;
         margin-right: 2rem;
         color: #F7C6C6;
 }
 
 .segundaseparacion img {
-        width: 500px;
+        width: 300px;
+        height: auto;
         margin-right: 2rem;
         box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
         -webkit-box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
@@ -246,7 +238,7 @@ footer {
 
 .segundaseparacion p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin-right: 2rem;
         margin-left: 2rem;
         margin-top: 1.3rem;
@@ -260,7 +252,7 @@ footer {
         flex-direction: row;
         justify-content: center;
         font-family: 'Fredoka', sans-serif;
-        font-size: 4rem;
+        font-size: 2.5rem;
         font-weight: 300;
         color: #B4DDDC;
         margin-top: 4rem;
@@ -272,8 +264,8 @@ footer {
         justify-content: center;
         margin-bottom: 1rem;
         font-family: 'Fredoka', sans-serif;
-        font-size: 3rem;
-        font-weight: 300;
+        font-size: 2.5rem;
+        font-weight:200;
         color: #C7BBDD;
 }
 
@@ -282,7 +274,7 @@ footer {
         justify-content: center;
         margin-left: 4rem;
         margin-right: 4rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -291,7 +283,7 @@ footer {
         justify-content: left;
         margin-left: 4rem;
         margin-right: 4rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -301,7 +293,7 @@ footer {
         margin-bottom: 1rem;
         list-style: none;
         font-family: 'Fredoka', sans-serif;
-        font-size: 2rem;
+        font-size: 2rem;font-weight: 200;
         color: #F7C6C6;
         display: flex;
         justify-content: left;
@@ -315,9 +307,9 @@ footer {
 .condiciones {
         color: #B4DDDC;
         font-family: 'Fredoka', sans-serif;
-        font-size: 4rem;
+        font-size: 3.4rem;
         font-style: normal;
-        font-weight: 300;
+        font-weight: 200;
         display: flex;
         justify-content: center;
         margin-top: 2rem;
@@ -330,9 +322,9 @@ footer {
         margin-bottom: 1rem;
         margin-top: 1rem;
         font-family: 'Fredoka', sans-serif;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: 300;
-        color: #C7BBDD;
+        color:#F7C6C6;
 }
 
 .aclaracioneslegales p {
@@ -340,27 +332,27 @@ footer {
         justify-content: left;
         margin-left: 4rem;
         margin-right: 4rem;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 /*--------page_noticias--------*/
 
-.info-poder h1 {
+.info-poder h1 {margin-top: 3rem;
         font-family: 'Fredoka', sans-serif;
-        font-size: 3rem;
-        font-weight: 500;
+        font-size: 3.5rem;
+        font-weight: 200;
         color: #B4DDDC;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        text-decoration: underline 1rem;
+        text-decoration: underline 0.3rem;
 }
 
 .info-poder p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top: 2rem;
         margin-left: 6rem;
         margin-right: 6rem;
@@ -379,7 +371,7 @@ footer {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.5rem;width: 200px;height: auto; border:solid; color: black;
 }
 
 
