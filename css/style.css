@@ -11,7 +11,7 @@
 .logoinicial {display: flex;justify-content: center;
 }
 
-.logoinicial img{width: 550px;height: auto;
+.logoinicial img{width: 600px;height: auto;
 }
 
 header nav ul li a {
@@ -327,6 +327,16 @@ footer {
         color:#F7C6C6;
 }
 
+.aclaracioneslegales h3 {display: flex;
+        justify-content:left;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        font-family: 'Fredoka', sans-serif;
+        font-size: 1.5em;
+        font-weight: 300;
+        color:#C7BBDD;}
+        
 .aclaracioneslegales p {
         display: flex;
         justify-content: left;
