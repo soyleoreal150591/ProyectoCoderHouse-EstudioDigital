@@ -8,20 +8,27 @@
 }
 
 /*--------header--------*/
-.logoinicial {display: flex;justify-content: center;
+.logoinicial {
+        display: flex;
+        justify-content: center;
 }
 
-.logoinicial img{width: 600px;height: auto;
+.logoinicial img {
+        width: 600px;
+        height: auto;
 }
 
 header nav ul li a {
         text-decoration: none;
-        font-size: 2rem;
+        font-size: 30px;
         font-family: 'Fredoka', sans-serif;
         font-weight: 200;
 }
 
-.collapse{display:flex;justify-content:center;}
+.collapse {
+        display: flex;
+        justify-content: center;
+}
 
 
 
@@ -44,7 +51,8 @@ header nav ul li a {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 1.3rem;
         padding-top: 0.5rem;
-        padding-bottom: 0.5rem; margin-top: 2rem;
+        padding-bottom: 0.5rem;
+        margin-top: 2rem;
         margin-right: 8rem;
         margin-bottom: 1rem;
         margin-left: 8rem;
@@ -70,7 +78,7 @@ header nav ul li a {
 
 .redes div {
         display: flex;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         flex-wrap: wrap;
 }
 
@@ -154,10 +162,12 @@ footer {
         color: white;
         font-size: 1.5rem;
         margin-bottom: 2rem;
-        list-style: circle;font-weight: 300;
+        list-style: circle;
+        font-weight: 300;
 }
 
-.grid-frase {font-weight: 200;
+.grid-frase {
+        font-weight: 200;
         font-size: 1.5rem;
         font-family: 'Fredoka', sans-serif;
         color: white;
@@ -192,7 +202,8 @@ footer {
 }
 
 .separacion img {
-        width: 300px; height: auto;
+        width: 300px;
+        height: auto;
         margin-left: 2rem;
         box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
         -webkit-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
@@ -265,7 +276,7 @@ footer {
         margin-bottom: 1rem;
         font-family: 'Fredoka', sans-serif;
         font-size: 2.5rem;
-        font-weight:200;
+        font-weight: 200;
         color: #C7BBDD;
 }
 
@@ -293,7 +304,8 @@ footer {
         margin-bottom: 1rem;
         list-style: none;
         font-family: 'Fredoka', sans-serif;
-        font-size: 2rem;font-weight: 200;
+        font-size: 2rem;
+        font-weight: 200;
         color: #F7C6C6;
         display: flex;
         justify-content: left;
@@ -324,19 +336,21 @@ footer {
         font-family: 'Fredoka', sans-serif;
         font-size: 2.5rem;
         font-weight: 300;
-        color:#F7C6C6;
+        color: #F7C6C6;
 }
 
-.aclaracioneslegales h3 {display: flex;
-        justify-content:left;
+.aclaracioneslegales h3 {
+        display: flex;
+        justify-content: left;
         margin-bottom: 1rem;
         margin-top: 1rem;
         margin-left: 2rem;
         font-family: 'Fredoka', sans-serif;
         font-size: 1.5em;
         font-weight: 300;
-        color:#C7BBDD;}
-        
+        color: #C7BBDD;
+}
+
 .aclaracioneslegales p {
         display: flex;
         justify-content: left;
@@ -349,7 +363,8 @@ footer {
 
 /*--------page_noticias--------*/
 
-.info-poder h1 {margin-top: 3rem;
+.info-poder h1 {
+        margin-top: 3rem;
         font-family: 'Fredoka', sans-serif;
         font-size: 3.5rem;
         font-weight: 200;
@@ -381,10 +396,101 @@ footer {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         padding-top: 0.5rem;
-        padding-bottom: 0.5rem;width: 200px;height: auto; border:solid; color: black;
+        padding-bottom: 0.5rem;
+        width: 200px;
+        height: auto;
+        border: solid;
+        color: black;
 }
 
+/*----------media querys index-------*/
+@media screen and (max-width: 450px) {
 
+        .hero h1 {
+                font-size: 2em;
+                margin-left: 1em;
+                margin-right: 1em;
+                margin-top: 1em;
+        }
+
+        .hero p {
+                margin-left: 1em;
+                margin-right: 1em;
+                font-size: 1em;
+
+        }
+
+        .redes h2 {
+                font-size: 2em;
+                margin-top: 0.5em;
+                padding: 0%;
+                margin-left: 1em;
+        }
+
+        .redes img {
+                width: 230px;
+                height: auto;
+                margin-bottom: 1em;
+        }
+
+}
+
+/*----------media querys servicios -------*/
+@media screen and (max-width: 450px) {
+
+        .servicios {
+                margin-left: 1em;
+                margin-right: auto;
+                font-size: 1.5em;
+                font-weight: 300;
+                color: #B4DDDC;
+                margin-top: 1em;
+                margin-bottom: 1em;
+        }
+
+        .conociendopack h2 {
+
+                margin-bottom: 1rem;
+                font-family: 'Fredoka', sans-serif;
+                font-size: 1.5em;
+                font-weight: 200;
+                color: #C7BBDD;
+        }
+
+        .conociendopack p {
+                display: flex;
+                justify-content: center;
+                margin-left: 4rem;
+                margin-right: 4rem;
+                font-size: 1em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .distinciondeservicios p {
+
+                margin-left: 4rem;
+                margin-right: 4rem;
+                font-size: 1em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .distinciondeservicios li {
+                margin-left: 4rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                list-style: none;
+                font-family: 'Fredoka', sans-serif;
+                font-size: 1.5em;
+                font-weight: 200;
+                color: #F7C6C6;
+                display: flex;
+                justify-content: left
+        }
+
+
+
+
+}
 
 /*----------media querys footer-------*/
 @media screen and (max-width: 450px) {
@@ -432,8 +538,10 @@ footer {
 /*----------media querys noticias-------*/
 
 @media screen and (max-width: 450px) {
+
+
         .info-poder h1 {
-                font-size: 2rem;
+                font-size: 25px;
                 text-decoration: underline 0.5rem;
         }
 
@@ -452,17 +560,24 @@ footer {
                 width: 150px;
                 height: auto;
                 padding: 1rem;
+                margin-bottom: 10px;
         }
 }
 
 /*----------media querys nosotras-------*/
 @media screen and (max-width: 450px) {
+        .logoinicial img {
+                width: 300px;
+                height: auto;
+        }
 
 
         .perfil_contadoras {
-                font-size: 2.3rem;
+                font-size: 2em;
                 margin-top: 1rem;
                 margin-bottom: 1rem;
+                margin-left: 1em;
+                margin-right: 1em;
         }
 
         .separacion {
@@ -473,13 +588,80 @@ footer {
                 flex-direction: column;
         }
 
-        .separacion img {width: 300px;height: auto;
+        .separacion img {
+                width: 250px;
+                height: auto;
         }
-        .segundaseparacion img {width: 300px;height: auto;margin-left: 1rem;
-        }
-        .separacion p {font-size: 1.5rem;}
 
-        .segundaseparacion p{font-size: 1.5rem;}
-       
-       
+        .segundaseparacion img {
+                width: 250px;
+                height: auto;
+                margin-left: 1rem;
+        }
+
+        .separacion p {
+                font-size: 1em;
+        }
+
+        .segundaseparacion p {
+                font-size: 1em;
+        }
+
+        .perfil_contadoratroiani {
+                font-size: 2em;
+        }
+
+        .perfil_contadoralema {
+                display: flex;
+                justify-content: left;
+                margin-left: 0.5em;
+                font-size: 2em;
+        }
+
+}
+
+/*----------media querys condiciones-------*/
+@media screen and (max-width: 450px) {
+        .condiciones {
+                margin-left: 0.5em;
+                margin-right: 0.5em;
+                font-size: 2em;
+                font-style: normal;
+                font-weight: 200;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+        }
+        
+        .aclaracioneslegales h2 {
+                margin-left: 0.5em;
+                margin-right: 0.5em;
+                font-size: 1.5em;
+                margin-bottom: 1em;
+                margin-top: 1em;
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 300;
+                color: #F7C6C6;
+        }
+        
+        .aclaracioneslegales h3 {
+            
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+                margin-left: 2rem;
+                font-family: 'Fredoka', sans-serif;
+                font-size: 1.5em;
+                font-weight: 300;
+                color: #C7BBDD;
+        }
+        
+        .aclaracioneslegales p {
+                display: flex;
+                justify-content: left;
+                margin-left: 4em;
+                margin-right: 4em;
+                font-size: 1em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+
 }
