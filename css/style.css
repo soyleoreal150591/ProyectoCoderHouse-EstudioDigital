@@ -18,18 +18,20 @@
         height: auto;
 }
 
-header nav ul li a {
+
+
+.nav-link {
         text-decoration: none;
         font-size: 30px;
         font-family: 'Fredoka', sans-serif;
         font-weight: 200;
-}
+        }
 
-
-
-.collapse {
+.navbar-nav {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 0;
 }
 
 
@@ -97,7 +99,9 @@ header nav ul li a {
 
 }
 
-.redes img:hover{width: 320px;}
+.redes img:hover {
+        width: 320px;
+}
 
 
 
@@ -551,26 +555,25 @@ footer {
         }
 
         .grid-diseño img {
-                width: 200px;
+                width: 120px;
                 height: auto;
-                ;
+                margin: 0%;
         }
 
 
         .grid-contacto {
-                font-size: 1.5rem;
+                font-size: 1.5em;
         }
 
         .grid-info ul li {
-                font-size: 1rem;
-                margin-left: 1rem;
+                font-size: 1em;
+                margin-left: 1em;
         }
 
         .grid-frase {
                 display: flex;
                 justify-content: center;
-                font-size: 1rem;
-                margin-left: auto;
+                font-size: 1em;
         }
 }
 
@@ -704,4 +707,3 @@ footer {
 
 
 }
-
