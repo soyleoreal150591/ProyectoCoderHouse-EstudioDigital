@@ -322,6 +322,7 @@
 }
 
 .distinciondeservicios p {
+        
         display: flex;
         justify-content: left;
         margin-left: 4rem;
