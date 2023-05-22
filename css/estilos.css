@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0%;
@@ -22,3 +23,56 @@ header .navbar-nav {
     font-size: 25px;
     font-family: 'Fredoka', sans-serif;
     font-weight: 200; }
+
+.grid-container {
+  margin-top: 2em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  border-style: solid;
+  color: #B4DDDC;
+  background-color: #C7BBDD;
+  display: grid;
+  grid-template-rows: 100px 200px 80px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "contacto contacto diseño" "informacion informacion diseño" "frase frase frase";
+  grid-area: diseño; }
+  .grid-container .grid-contacto {
+    grid-area: contacto; }
+    .grid-container .grid-contacto p {
+      color: white;
+      text-decoration: none;
+      font-family: 'Fredoka', sans-serif;
+      font-weight: 300;
+      font-size: 2em;
+      margin-left: 1em; }
+  .grid-container .grid-info {
+    grid-area: informacion; }
+    .grid-container .grid-info li {
+      margin-left: 1.5rem;
+      font-style: normal;
+      font-family: 'Fredoka', sans-serif;
+      color: white;
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      list-style: circle;
+      font-weight: 300; }
+  .grid-container .grid-diseño {
+    display: flex;
+    justify-content: right;
+    margin-right: 1em; }
+  .grid-container img {
+    width: 350px;
+    height: 350px;
+    margin-left: 4em; }
+
+.grid-frase {
+  grid-area: frase; }
+  .grid-frase p {
+    font-weight: 200;
+    font-size: 1.5rem;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem; }

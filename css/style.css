@@ -107,16 +107,14 @@
 
 
 /*--------footer--------*/
-footer {
-        margin-top: 2rem;
-        margin-right: 1rem;
-        margin-bottom: 1rem;
-        margin-left: 1rem;
-        border-style: solid;
-        color: #B4DDDC
-}
 
 .grid-container {
+        margin-top: 2em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        border-style: solid;
+        color: #B4DDDC;
         background-color: #C7BBDD;
         display: grid;
         grid-template-rows: 100px 200px 80px;
@@ -149,13 +147,13 @@ footer {
 .grid-diseño img {
         width: 350px;
         height: 350px;
-        margin-left: 4rem;
+        margin-left: 4em;
 }
 
 .grid-diseño {
         display: flex;
         justify-content: right;
-        margin-right: 1rem;
+        margin-right: 1em;
 }
 
 .grid-contacto {
@@ -163,8 +161,8 @@ footer {
         text-decoration: none;
         font-family: 'Fredoka', sans-serif;
         font-weight: 300;
-        font-size: 2rem;
-        margin-left: 1rem;
+        font-size: 2em;
+        margin-left: 1em;
 }
 
 .grid-info ul li {
