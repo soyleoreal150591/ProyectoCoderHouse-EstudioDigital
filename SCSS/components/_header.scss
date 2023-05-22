@@ -1,13 +1,32 @@
 header {
-    .logoinicial {
+    .logoinial {
         display: flex;
         justify-content: center;
+    }
 
-        img {
-            width: 600px;
-            height: auto;
+    img {
+        width: 600px;
+        height: auto;
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 0%;
+
+        .nav-item {
+            .nav-link {
+                text-decoration: none;
+                font-size: 25px;
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 200;
+            }
 
         }
+
+
     }
-    
+
+
 }
