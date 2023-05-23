@@ -448,6 +448,10 @@
 
 /*----------media querys index-------*/
 @media screen and (max-width: 450px) {
+        .logoinicial img {
+                width: 300px;
+                height: auto;
+        }
 
         .hero h1 {
                 font-size: 2em;
@@ -547,7 +551,7 @@
                         "informacion"
                         "diseño"
                         "frase";
-        }
+        } 
 
         .grid-diseño {
                 display: flex;
@@ -608,13 +612,9 @@
 
 /*----------media querys nosotras-------*/
 @media screen and (max-width: 450px) {
-        .logoinicial img {
-                width: 300px;
-                height: auto;
-        }
 
 
-        .perfil_contadoras {
+        .perfil-contadoras {
                 font-size: 2em;
                 margin-top: 1rem;
                 margin-bottom: 1rem;
@@ -649,11 +649,11 @@
                 font-size: 1em;
         }
 
-        .perfil_contadoratroiani {
+        .perfil-contadoratroiani {
                 font-size: 2em;
         }
 
-        .perfil_contadoralema {
+        .perfil-contadoralema {
                 display: flex;
                 justify-content: left;
                 margin-left: 0.5em;

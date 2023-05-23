@@ -333,3 +333,30 @@ main .aclaracioneslegales p {
     display: flex;
     justify-content: end;
     padding-right: 1rem; }
+
+/*----------media querys header-------*/
+@media screen and (max-width: 450px) {
+  .logoinicial img {
+    width: 300px;
+    height: auto; } }
+
+/*----------media querys index-------*/
+@media screen and (max-width: 450px) {
+  main .hero h1 {
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em; }
+  main .hero p {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1em; }
+  .redes h2 {
+    font-size: 2em;
+    margin-top: 0.5em;
+    padding: 0%;
+    margin-left: 1em; }
+  .redes div a img {
+    width: 230px;
+    height: auto;
+    margin-bottom: 1em; } }
