@@ -189,12 +189,12 @@
 
 /*--------page_nosotras--------*/
 
-.perfil_contadoras {
+.perfil-contadoras {
         display: flex;
         justify-content: center;
 }
 
-.perfil_contadoras {
+.perfil-contadoras {
         font-family: 'Fredoka', sans-serif;
         font-size: 3.2rem;
         font-weight: 300;
@@ -203,7 +203,7 @@
         margin-bottom: 4rem;
 }
 
-.perfil_contadoratroiani {
+.perfil-contadoratroiani {
         font-family: 'Fredoka', sans-serif;
         font-size: 2.5rem;
         font-weight: 200;
@@ -221,12 +221,12 @@
 }
 
 .separacion img:hover {
-        width: 300px;
+        width: 260px;
 }
 
 .separacion img {
         transition-property: width;
-        transition-duration: 2s;
+        transition-duration: 0.5s;
         transition-timing-function: linear;
 }
 
@@ -237,13 +237,13 @@
 
 .separacion p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-right: 2rem;
         margin-left: 2rem;
         margin-top: 1.3rem;
 }
 
-.perfil_contadoralema {
+.perfil-contadoralema {
         display: flex;
         flex-direction: row-reverse;
         font-family: 'Fredoka', sans-serif;
@@ -264,13 +264,13 @@
 
 
 .segundaseparacion img:hover {
-        width: 280px;
+        width: 260px;
 }
 
 .segundaseparacion img {
 
         transition-property: width;
-        transition-duration: 2s;
+        transition-duration: 0.5s;
         transition-timing-function: linear;
 }
 
@@ -281,7 +281,7 @@
 
 .segundaseparacion p {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-right: 2rem;
         margin-left: 2rem;
         margin-top: 1.3rem;

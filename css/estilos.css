@@ -166,6 +166,79 @@ main .diarios {
     main .diarios a img:hover {
       width: 230px; }
 
+/*--------main nosotras--------*/
+main .perfil-contadoras {
+  display: flex;
+  justify-content: center;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 300;
+  color: #B4DDDC;
+  margin-top: 4rem;
+  margin-bottom: 4rem; }
+
+main section .perfil-contadoratroiani {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin-left: 2rem;
+  color: #F7C6C6; }
+
+main section .separacion {
+  display: flex;
+  flex-direction: row; }
+  main section .separacion div img {
+    width: 250px;
+    height: auto;
+    margin-left: 2rem;
+    box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
+    -webkit-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
+    -moz-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: linear; }
+    main section .separacion div img:hover {
+      width: 260px; }
+
+main section p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 1.3rem; }
+
+main section .perfil-contadoralema {
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin-right: 2rem;
+  color: #F7C6C6; }
+
+main section .segundaseparacion {
+  display: flex;
+  flex-direction: row-reverse; }
+  main section .segundaseparacion div img {
+    width: 250px;
+    height: auto;
+    margin-right: 2rem;
+    box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
+    -webkit-box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
+    -moz-box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: linear; }
+    main section .segundaseparacion div img:hover {
+      width: 260px; }
+
+main section p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 1.3rem; }
+
 /*--------footer--------*/
 .grid-container {
   margin-top: 2em;
