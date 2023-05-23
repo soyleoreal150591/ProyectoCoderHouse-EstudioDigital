@@ -51,6 +51,12 @@
                     width: 230px;
                     height: auto;
                     margin-bottom: 1em;
+                    transition-property: width;
+                    transition-duration: 1s;
+
+                    &:hover {
+                        width: 250px;
+                    }
                 }
             }
         }
@@ -133,6 +139,10 @@
             "diseño"
             "frase";
 
+            .grid-contacto {
+                font-size: 0.8em;
+        }
+
         .grid-info {
             ul {
                 li {
@@ -163,3 +173,98 @@
 
     }
 }
+
+/*----------media querys noticias-------*/
+@media screen and (max-width: 450px) {
+    main {
+        .info-poder {
+            h1 {
+                font-size: 25px;
+                text-decoration: underline 0.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+        }
+
+        .diarios {
+            flex-direction: column;
+            align-items: center;
+
+            a {
+                img {
+                    width: 150px;
+                    height: auto;
+                    padding: 1rem;
+                    margin-bottom: 10px;
+                    transition-property: width;
+                    transition-duration: 1s;
+
+                    &:hover {
+                        width: 170px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+/*----------media querys nosotras-------*/
+@media screen and (max-width: 450px) {
+    main {
+        .perfil-contadoras {
+            font-size: 2em;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                margin-left: 1em;
+                margin-right: 1em;
+        }
+        section {
+            .perfil-contadoratroiani{
+                font-size: 2em;
+            }
+            .separacion {
+                flex-direction: column;
+                img {
+                    width: 230px;
+                    height: auto;
+                }
+                p {
+                    font-size: 1em;
+                }
+            }
+
+        }
+        section {
+            .perfil-contadoralema{
+                display: flex;
+                justify-content: left;
+                margin-left: 0.5em;
+                font-size: 2em;
+            }
+            .segundaseparacion {
+                flex-direction: column;
+        }
+                div {
+                    img {
+                        width: 230px;
+                        height: auto;
+                        margin-left: 1rem;
+                        
+                    }
+                
+                
+                p {
+                    font-size: 1em;
+                }
+
+            }
+        }
+    }
+    }
+    
+
+
