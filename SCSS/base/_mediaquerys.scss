@@ -59,3 +59,65 @@
 
     }
 }
+
+/*----------media querys servicios -------*/
+@media screen and (max-width: 450px) {
+    main {
+        .servicios {
+            margin-left: 1em;
+            margin-right: auto;
+            font-size: 1.5em;
+            font-weight: 300;
+            color: #B4DDDC;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        section {
+            .conociendopack {
+                h2 {
+                    margin-bottom: 1rem;
+                    font-family: 'Fredoka', sans-serif;
+                    font-size: 1.5em;
+                    font-weight: 200;
+                    color: #C7BBDD;
+                }
+
+                p {
+                    display: flex;
+                    justify-content: center;
+                    margin-left: 4rem;
+                    margin-right: 4rem;
+                    font-size: 1em;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+
+
+
+            }
+
+            .distinciondeservicios {
+                li {
+                    margin-left: 4rem;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    list-style: none;
+                    font-family: 'Fredoka', sans-serif;
+                    font-size: 1.5em;
+                    font-weight: 200;
+                    color: #F7C6C6;
+                    display: flex;
+                    justify-content: left
+                }
+
+                p {
+                    margin-left: 4rem;
+                    margin-right: 4rem;
+                    font-size: 1em;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+        }
+
+    }
+}
