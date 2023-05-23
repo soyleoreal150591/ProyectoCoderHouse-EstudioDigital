@@ -2,7 +2,7 @@
 main {
     .hero {
         h1 {
-            color: #B4DDDC;
+            color: $colorprincipal;
             font-family: 'Fredoka', sans-serif;
             font-size: 3rem;
             font-style: normal;
@@ -28,7 +28,7 @@ main {
 .redes {
 
     h2 {
-        color: #C7BBDD;
+        color: $colorsecundario;
         font-family: 'Fredoka', sans-serif;
         font-size: 3rem;
         font-style: normal;
@@ -52,7 +52,7 @@ main {
             img {
                 width: 300px;
                 height: auto;
-                border: #B4DDDC solid;
+                border: $colorprincipal solid;
                 padding-top: 1rem;
                 padding-left: 1rem;
                 padding-bottom: 1rem;
@@ -78,7 +78,7 @@ main {
         font-family: 'Fredoka', sans-serif;
         font-size: 2.5rem;
         font-weight: 300;
-        color: #B4DDDC;
+        color: $colorprincipal;
         margin-top: 4rem;
         margin-bottom: 3rem;
     }
@@ -91,7 +91,7 @@ main {
             font-family: 'Fredoka', sans-serif;
             font-size: 2.5rem;
             font-weight: 200;
-            color: #C7BBDD;
+            color: $colorsecundario;
         }
 
         p {
@@ -113,7 +113,7 @@ main {
             font-family: 'Fredoka', sans-serif;
             font-size: 2rem;
             font-weight: 200;
-            color: #F7C6C6;
+            color: $colorterciario;
             display: flex;
             justify-content: left;
         }
@@ -137,7 +137,7 @@ main {
             font-family: 'Fredoka', sans-serif;
             font-size: 3.5rem;
             font-weight: 200;
-            color: #B4DDDC;
+            color: $colorprincipal;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -193,7 +193,7 @@ main {
         font-family: 'Fredoka', sans-serif;
         font-size: 3.2rem;
         font-weight: 300;
-        color: #B4DDDC;
+        color: $colorprincipal;
         margin-top: 4rem;
         margin-bottom: 4rem;
     }
@@ -204,7 +204,7 @@ main {
             font-size: 2.5rem;
             font-weight: 200;
             margin-left: 2rem;
-            color: #F7C6C6;
+            color: $colorterciario;
         }
 
 
@@ -249,7 +249,7 @@ main {
             font-size: 2.5rem;
             font-weight: 200;
             margin-right: 2rem;
-            color: #F7C6C6;
+            color: $colorterciario;
         }
 
         .segundaseparacion {
@@ -291,7 +291,7 @@ main {
 /*--------main condiciones--------*/
 main {
     .condiciones {
-        color: #B4DDDC;
+        color: $colorprincipal;
         font-family: 'Fredoka', sans-serif;
         font-size: 3.4rem;
         font-style: normal;
@@ -311,7 +311,7 @@ main {
             font-family: 'Fredoka', sans-serif;
             font-size: 2.5rem;
             font-weight: 300;
-            color: #F7C6C6;
+            color: $colorterciario;
         }
 
         h3 {
@@ -323,7 +323,7 @@ main {
             font-family: 'Fredoka', sans-serif;
             font-size: 1.5em;
             font-weight: 300;
-            color: #C7BBDD;
+            color: $colorsecundario;
         }
 
         p {

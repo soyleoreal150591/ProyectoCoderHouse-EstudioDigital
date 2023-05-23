@@ -5,6 +5,7 @@
   padding: 0%;
   box-sizing: border-box; }
 
+/*---paleta de colores---*/
 header .logoinicial {
   display: flex;
   justify-content: center; }
@@ -26,7 +27,7 @@ header .navbar-nav {
 
 /*--------main index--------*/
 main .hero h1 {
-  color: #B4DDDC;
+  color: #b4dddc;
   font-family: 'Fredoka', sans-serif;
   font-size: 3rem;
   font-style: normal;
@@ -67,7 +68,7 @@ main .hero p {
   .redes div a img {
     width: 300px;
     height: auto;
-    border: #B4DDDC solid;
+    border: #b4dddc solid;
     padding-top: 1rem;
     padding-left: 1rem;
     padding-bottom: 1rem;
@@ -85,7 +86,7 @@ main .servicios {
   font-family: 'Fredoka', sans-serif;
   font-size: 2.5rem;
   font-weight: 300;
-  color: #B4DDDC;
+  color: #b4dddc;
   margin-top: 4rem;
   margin-bottom: 3rem; }
 
@@ -132,7 +133,7 @@ main .info-poder h1 {
   font-family: 'Fredoka', sans-serif;
   font-size: 3.5rem;
   font-weight: 200;
-  color: #B4DDDC;
+  color: #b4dddc;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -173,7 +174,7 @@ main .perfil-contadoras {
   font-family: 'Fredoka', sans-serif;
   font-size: 3.2rem;
   font-weight: 300;
-  color: #B4DDDC;
+  color: #b4dddc;
   margin-top: 4rem;
   margin-bottom: 4rem; }
 
@@ -241,7 +242,7 @@ main section p {
 
 /*--------main condiciones--------*/
 main .condiciones {
-  color: #B4DDDC;
+  color: #b4dddc;
   font-family: 'Fredoka', sans-serif;
   font-size: 3.4rem;
   font-style: normal;
@@ -287,7 +288,7 @@ main .aclaracioneslegales p {
   margin-bottom: 1em;
   margin-left: 1em;
   border-style: solid;
-  color: #B4DDDC;
+  color: #b4dddc;
   background-color: #C7BBDD;
   display: grid;
   grid-template-rows: 100px 200px 80px;
@@ -372,7 +373,7 @@ main .aclaracioneslegales p {
     margin-right: auto;
     font-size: 1.5em;
     font-weight: 300;
-    color: #B4DDDC;
+    color: #b4dddc;
     margin-top: 1em;
     margin-bottom: 1em; }
   main section .conociendopack h2 {
@@ -380,7 +381,7 @@ main .aclaracioneslegales p {
     font-family: 'Fredoka', sans-serif;
     font-size: 1.5em;
     font-weight: 200;
-    color: #C7BBDD; }
+    color: #F7C6C6; }
   main section .conociendopack p {
     display: flex;
     justify-content: center;
@@ -515,5 +516,3 @@ main .aclaracioneslegales p {
     margin-right: 4em;
     font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; } }
-
-/*-------paleta de colores-------*/

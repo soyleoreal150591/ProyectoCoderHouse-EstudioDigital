@@ -74,7 +74,7 @@
             margin-right: auto;
             font-size: 1.5em;
             font-weight: 300;
-            color: #B4DDDC;
+            color: $colorprincipal;
             margin-top: 1em;
             margin-bottom: 1em;
         }
@@ -86,7 +86,7 @@
                     font-family: 'Fredoka', sans-serif;
                     font-size: 1.5em;
                     font-weight: 200;
-                    color: #C7BBDD;
+                    color: $colorterciario;
                 }
 
                 p {
@@ -111,7 +111,7 @@
                     font-family: 'Fredoka', sans-serif;
                     font-size: 1.5em;
                     font-weight: 200;
-                    color: #F7C6C6;
+                    color: $colorterciario;
                     display: flex;
                     justify-content: left
                 }
@@ -296,7 +296,7 @@
                 margin-top: 1em;
                 font-family: 'Fredoka', sans-serif;
                 font-weight: 300;
-                color: #F7C6C6;
+                color: $colorterciario;
             }
 
             h3 {
@@ -306,7 +306,7 @@
                 font-family: 'Fredoka', sans-serif;
                 font-size: 1.3em;
                 font-weight: 300;
-                color: #C7BBDD;
+                color: $colorsecundario;
             }
 
             p {
