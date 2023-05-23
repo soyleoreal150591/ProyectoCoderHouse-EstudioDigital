@@ -480,3 +480,38 @@ main .aclaracioneslegales p {
     margin-left: 1rem; }
   main section div p {
     font-size: 1em; } }
+
+/*----------media querys condiciones-------*/
+@media screen and (max-width: 450px) {
+  main .condiciones {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 200;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  main .aclaracioneslegales h2 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 300;
+    color: #F7C6C6; }
+  main .aclaracioneslegales h3 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: #C7BBDD; }
+  main .aclaracioneslegales p {
+    display: flex;
+    justify-content: left;
+    margin-left: 4em;
+    margin-right: 4em;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; } }

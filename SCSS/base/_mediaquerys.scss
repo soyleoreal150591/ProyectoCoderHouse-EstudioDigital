@@ -139,8 +139,8 @@
             "diseño"
             "frase";
 
-            .grid-contacto {
-                font-size: 0.8em;
+        .grid-contacto {
+            font-size: 0.8em;
         }
 
         .grid-info {
@@ -212,51 +212,59 @@
         }
     }
 }
+
 /*----------media querys nosotras-------*/
 @media screen and (max-width: 450px) {
     main {
         .perfil-contadoras {
             font-size: 2em;
-                margin-top: 1rem;
-                margin-bottom: 1rem;
-                margin-left: 1em;
-                margin-right: 1em;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            margin-left: 1em;
+            margin-right: 1em;
         }
+
         section {
-            .perfil-contadoratroiani{
+            .perfil-contadoratroiani {
                 font-size: 2em;
             }
+
             .separacion {
                 flex-direction: column;
+
                 img {
                     width: 230px;
                     height: auto;
                 }
+
                 p {
                     font-size: 1em;
                 }
             }
 
         }
+
         section {
-            .perfil-contadoralema{
+            .perfil-contadoralema {
                 display: flex;
                 justify-content: left;
                 margin-left: 0.5em;
                 font-size: 2em;
             }
+
             .segundaseparacion {
                 flex-direction: column;
-        }
-                div {
-                    img {
-                        width: 230px;
-                        height: auto;
-                        margin-left: 1rem;
-                        
-                    }
-                
-                
+            }
+
+            div {
+                img {
+                    width: 230px;
+                    height: auto;
+                    margin-left: 1rem;
+
+                }
+
+
                 p {
                     font-size: 1em;
                 }
@@ -264,7 +272,51 @@
             }
         }
     }
+}
+
+/*----------media querys condiciones-------*/
+@media screen and (max-width: 450px) {
+    main {
+        .condiciones {
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+            font-size: 2em;
+            font-style: normal;
+            font-weight: 200;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .aclaracioneslegales {
+            h2 {
+                margin-left: 0.5em;
+                margin-right: 0.5em;
+                font-size: 1.5em;
+                margin-bottom: 1em;
+                margin-top: 1em;
+                font-family: 'Fredoka', sans-serif;
+                font-weight: 300;
+                color: #F7C6C6;
+            }
+
+            h3 {
+                margin-bottom: 1rem;
+                margin-top: 1rem;
+                margin-left: 2rem;
+                font-family: 'Fredoka', sans-serif;
+                font-size: 1.3em;
+                font-weight: 300;
+                color: #C7BBDD;
+            }
+
+            p {
+                display: flex;
+                justify-content: left;
+                margin-left: 4em;
+                margin-right: 4em;
+                font-size: 1em;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
     }
-    
-
-
+}
