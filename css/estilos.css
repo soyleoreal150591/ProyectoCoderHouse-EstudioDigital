@@ -400,3 +400,24 @@ main .aclaracioneslegales p {
     margin-right: 4rem;
     font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; } }
+
+/*----------media querys footer-------*/
+@media screen and (max-width: 450px) {
+  .grid-container {
+    grid-template-rows: 100px auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "contacto" "informacion" "diseño" "frase"; }
+    .grid-container .grid-info ul li {
+      font-size: 1em;
+      margin-left: 1em; }
+    .grid-container .grid-diseño {
+      display: flex;
+      justify-content: center; }
+      .grid-container .grid-diseño img {
+        width: 120px;
+        height: auto;
+        margin: 0%; }
+    .grid-container .grid-frase p {
+      display: flex;
+      justify-content: center;
+      font-size: 1em; } }

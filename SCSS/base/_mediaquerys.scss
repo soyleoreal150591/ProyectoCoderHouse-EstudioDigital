@@ -121,3 +121,45 @@
 
     }
 }
+
+/*----------media querys footer-------*/
+@media screen and (max-width: 450px) {
+    .grid-container {
+        grid-template-rows: 100px auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "contacto"
+            "informacion"
+            "diseño"
+            "frase";
+
+        .grid-info {
+            ul {
+                li {
+                    font-size: 1em;
+                    margin-left: 1em;
+                }
+            }
+        }
+
+        .grid-diseño {
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 120px;
+                height: auto;
+                margin: 0%;
+            }
+        }
+
+        .grid-frase {
+            p {
+                display: flex;
+                justify-content: center;
+                font-size: 1em;
+            }
+        }
+
+    }
+}
