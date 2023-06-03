@@ -326,7 +326,8 @@
         color: #C7BBDD;
 }
 
-.conociendopack p {text-align: center; 
+.conociendopack p {
+        text-align: center; 
         font-size: 1.3rem;
         font-weight:300;;
         font-family:'Fredoka', sans-serif;
