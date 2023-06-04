@@ -143,55 +143,54 @@ main .distinciondeservicios p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 /*--------main noticias--------*/
-main .informativo {
+.informativo {
   background-image: url("../image/papel-arrugado.jpeg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
   background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.3);
-  margin-left: 1em;
-  margin-right: 1em; }
-
-main .info-poder h1 {
-  padding-top: 3rem;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 200;
-  color: #b4dddc;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-main .info-poder p {
-  font-family: 'Fredoka', sans-serif;
-  font-size: 1.3rem;
-  margin-top: 2rem;
-  margin-left: 6rem;
-  margin-right: 6rem;
-  margin-bottom: 2rem;
-  color: white; }
-
-main .diarios {
-  display: inline-block;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap; }
-  main .diarios a img {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    margin-bottom: 0.5rem;
-    width: 200px;
-    height: auto;
-    border: solid;
-    color: white;
-    transition-property: width;
-    transition-duration: 1s; }
-    main .diarios a img:hover {
-      width: 230px; }
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 20px; }
+  .informativo .info-poder h1 {
+    padding-top: 3rem;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 200;
+    color: #b4dddc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .informativo .info-poder p {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+    color: white; }
+  .informativo .diarios {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
+    .informativo .diarios a img {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.5rem;
+      width: 200px;
+      height: auto;
+      border: solid;
+      color: white;
+      transition-property: width;
+      transition-duration: 1s; }
+      .informativo .diarios a img:hover {
+        width: 230px; }
 
 /*--------main nosotras--------*/
-main .perfil-contadoras {
+.perfil-contadoras {
   display: flex;
   justify-content: center;
   font-family: 'Fredoka', sans-serif;
@@ -199,39 +198,42 @@ main .perfil-contadoras {
   font-weight: 300;
   color: #b4dddc;
   margin-top: 4rem;
-  margin-bottom: 4rem; }
+  margin-bottom: 2rem; }
 
-main section .perfil-contadoratroiani {
+section .perfil-contadoratroiani {
   font-family: 'Fredoka', sans-serif;
   font-size: 2.5rem;
   font-weight: 200;
   margin-left: 2rem;
   color: #F7C6C6; }
 
-main section .separacion {
+section .separacion {
   display: flex;
   flex-direction: row; }
-  main section .separacion div img {
-    width: 250px;
-    height: auto;
+  section .separacion div img {
+    width: 300px;
+    height: 300px;
     margin-left: 2rem;
     box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
     -webkit-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
     -moz-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
-    transition-property: width;
+    transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: linear; }
-    main section .separacion div img:hover {
-      width: 260px; }
+    section .separacion div img:hover {
+      width: 310px;
+      height: 310px; }
+  section .separacion p {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    background-color: #C7BBDD;
+    border-radius: 5px;
+    padding: 1em;
+    color: whitesmoke; }
 
-main section p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.3rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
-  margin-top: 1.3rem; }
-
-main section .perfil-contadoralema {
+section .perfil-contadoralema {
   display: flex;
   flex-direction: row-reverse;
   font-family: 'Fredoka', sans-serif;
@@ -240,28 +242,31 @@ main section .perfil-contadoralema {
   margin-right: 2rem;
   color: #F7C6C6; }
 
-main section .segundaseparacion {
+section .segundaseparacion {
   display: flex;
   flex-direction: row-reverse; }
-  main section .segundaseparacion div img {
-    width: 250px;
-    height: auto;
+  section .segundaseparacion div img {
+    width: 300px;
+    height: 300px;
     margin-right: 2rem;
     box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
     -webkit-box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
     -moz-box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
-    transition-property: width;
+    transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: linear; }
-    main section .segundaseparacion div img:hover {
-      width: 260px; }
-
-main section p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.3rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
-  margin-top: 1.3rem; }
+    section .segundaseparacion div img:hover {
+      width: 310px;
+      height: 310px; }
+  section .segundaseparacion p {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.3rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    background-color: #C7BBDD;
+    border-radius: 5px;
+    padding: 1em;
+    color: whitesmoke; }
 
 /*--------main condiciones--------*/
 main .condiciones {

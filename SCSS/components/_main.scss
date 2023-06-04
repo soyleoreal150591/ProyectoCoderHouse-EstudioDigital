@@ -148,14 +148,15 @@ main {
 }
 
 /*--------main noticias--------*/
-main {
-    .informativo {
-        background-image: url("../image/papel-arrugado.jpeg");
-        background-blend-mode: multiply;
-        background-color: rgba(0, 0, 0, 0.3);
-        margin-left: 1em;
-        margin-right: 1em;
-    }
+
+.informativo {
+    background-image: url("../image/papel-arrugado.jpeg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
 
 
     .info-poder {
@@ -214,8 +215,10 @@ main {
     }
 }
 
+
 /*--------main nosotras--------*/
-main {
+
+
     .perfil-contadoras {
         display: flex;
         justify-content: center;
@@ -224,7 +227,7 @@ main {
         font-weight: 300;
         color: $colorprincipal;
         margin-top: 4rem;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     section {
@@ -243,32 +246,36 @@ main {
 
             div {
                 img {
-                    width: 250px;
-                    height: auto;
+                    width: 300px;
+                    height: 300px;
                     margin-left: 2rem;
                     box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
                     -webkit-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
                     -moz-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
-                    transition-property: width;
+                    transition-property: all;
                     transition-duration: 0.5s;
                     transition-timing-function: linear;
 
                     &:hover {
-                        width: 260px;
+                        width: 310px;
+                        height: 310px;
                     }
                 }
             }
-
+            p {
+                font-family: 'Fredoka', sans-serif;
+                font-size: 1.3rem;
+                margin-right: 2rem;
+                margin-left: 2rem;
+                background-color: $colorsecundario;
+                border-radius: 5px;
+                padding: 1em;
+                color:whitesmoke;
+            }
+        }
         }
 
-        p {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 1.3rem;
-            margin-right: 2rem;
-            margin-left: 2rem;
-            margin-top: 1.3rem;
-        }
-    }
+     
 
     section {
         .perfil-contadoralema {
@@ -289,33 +296,41 @@ main {
 
 
                 img {
-                    width: 250px;
-                    height: auto;
+                    width: 300px;
+                    height: 300px;
                     margin-right: 2rem;
                     box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
                     -webkit-box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
                     -moz-box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
-                    transition-property: width;
+                    transition-property:all;
                     transition-duration: 0.5s;
                     transition-timing-function: linear;
 
                     &:hover {
-                        width: 260px;
+                        width: 310px;
+                        height: 310px;
                     }
                 }
             }
+            p {
+                font-family:'Fredoka', sans-serif;
+                font-size: 1.3rem;
+                margin-right: 2rem;
+                margin-left: 2rem;
+                background-color: $colorsecundario;
+                border-radius: 5px;
+                padding: 1em;
+                color:whitesmoke;
+    
         }
 
-        p {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 1.3rem;
-            margin-right: 2rem;
-            margin-left: 2rem;
-            margin-top: 1.3rem;
+       
+        } 
+
         }
 
-    }
-}
+    
+
 
 /*--------main condiciones--------*/
 main {
