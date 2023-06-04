@@ -8,12 +8,12 @@
     color: $colorprincipal;
     background-color: $colorsecundario;
     display: grid;
-    grid-template-rows: 100px 200px 80px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 70px 100px 50px;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-        "contacto contacto diseño"
-        "informacion informacion diseño"
-        "frase frase frase";
+        "contacto diseño"
+        "informacion indiseño"
+        "frase frase ";
 
     .grid-contacto {
         grid-area: contacto;
@@ -25,6 +25,7 @@
         font-weight: 300;
         font-size: 2em;
         margin-left: 1em;
+        margin-bottom: 0%;
         }
     }
 
@@ -37,7 +38,6 @@
             font-family: 'Fredoka', sans-serif;
             color: $letrafooter;
             font-size: 1.5rem;
-            margin-bottom: 2rem;
             list-style: circle;
             font-weight: 300;
         }
@@ -51,9 +51,10 @@
         grid-area: diseño;
 
         img {
-            width: 350px;
-            height: 350px;
-            margin-left: 4em;
+            width: 200px;
+            height: 200px;
+            margin-right: 3em;
+        ;
 
         }
     }

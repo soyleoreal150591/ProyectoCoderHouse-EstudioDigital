@@ -1,4 +1,428 @@
-/*----------media querys header-------*/
+/*----------media querys header tablet -------*/
+@media screen and (max-width: 750px) {
+    .logoinicial {
+        img {
+            width: 500px;
+            height: auto;
+
+        }
+    }
+}
+
+/*----------media querys index tablet-------*/
+@media screen and (max-width: 750px) {
+    main {
+
+        .hero {
+            h1 {
+                font-size: 2em;
+                margin-left: 1em;
+                margin-right: 1em;
+                margin-top: 1em;
+            }
+
+            p {
+                margin-left: 1em;
+                margin-right: 1em;
+                font-size: 1em;
+
+            }
+        }
+
+    }
+
+    .redes {
+        h2 {
+            font-size: 2em;
+            margin-top: 0.5em;
+            padding: 0%;
+            margin-left: 1em;
+        }
+
+        div {
+            a {
+                img {
+                    width: 230px;
+                    height: auto;
+                    margin-bottom: 1em;
+                    transition-property: width;
+                    transition-duration: 1s;
+
+                    &:hover {
+                        width: 250px;
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+
+
+
+
+}
+
+/*----------media querys footer tablet-------*/
+@media screen and (max-width: 750px) {
+
+    .grid-container {
+        grid-template-rows: 50px 100px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "contacto diseño"
+            "informacion diseño"
+            "frase frase";
+
+        .grid-contacto {
+            grid-area: contacto;
+
+
+            p {
+                font-size: 1.3em;
+                margin-bottom: 0%;
+                margin-top: 0%;
+            }
+        }
+
+        .grid-info {
+            ul {
+
+                li {
+                    font-size: 1.3em;
+                    margin-left: 1em;
+                    margin-bottom: 0%;
+                }
+            }
+        }
+
+        .grid-diseño {
+
+
+            img {
+                width: 180px;
+                height: 180px;
+                margin-right: 1rem;
+                margin-bottom: 1em;
+
+            }
+        }
+
+        .grid-frase {
+            p {
+                display: flex;
+                justify-content: right;
+                font-size: 1em;
+            }
+        }
+
+    }
+}
+
+/*----------media querys servicios tablet-------*/
+@media screen and (max-width: 750px) {
+    main {
+
+
+
+        .presentacionservice {
+            background-image: url("../image/pexels-cup-of-couple-6177607.jpg");
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 200px;
+            background-size: 100%;
+            background-position: bottom;
+            background-blend-mode: multiply;
+            background-color: rgba(0, 0, 0, 0.3);
+            position: sticky;
+            top: 0%;
+
+        }
+
+        .servicios {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-family: 'Fredoka', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 380;
+            color: $colorprincipal;
+            padding-top: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .conociendopack {
+            h2 {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 0.8rem;
+                font-family: 'Fredoka', sans-serif;
+                font-size: 1.3rem;
+                font-weight: 180;
+                color: $colorsecundario;
+            }
+
+            p {
+                text-align: center;
+                font-size: 1rem;
+                font-weight: 300;
+                font-family: 'Fredoka', sans-serif;
+                color: white;
+                padding-left: 2rem;
+                padding-right: 2rem;
+            }
+        }
+
+        .distinciondeservicios {
+            li {
+                display: inline-block;
+                border-radius: 12px;
+                margin-left: 2rem;
+                margin-top: 0.8rem;
+                margin-bottom: 1rem;
+                list-style: none;
+                font-family: 'Fredoka', sans-serif;
+                font-size: 1.6rem;
+                font-weight: 200;
+                color: white;
+                background-color: #F7C6C6;
+                padding: 0.1em;
+            }
+
+            p {
+                display: flex;
+                justify-content: left;
+                margin-left: 4rem;
+                margin-right: 4rem;
+                font-size: 1rem;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+    }
+
+}
+
+/*----------media querys noticias tablet-------*/
+@media screen and (max-width: 750px) {
+    .informativo {
+        background-image: url("../image/papel-arrugado.jpeg");
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-right: 20px;
+
+
+        .info-poder {
+            h1 {
+                padding-top: 3rem;
+                font-family: 'Fredoka', sans-serif;
+                font-size: 2.5em;
+                font-weight: 200;
+                color: $colorprincipal;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                ;
+            }
+
+            p {
+                font-family: 'Fredoka', sans-serif;
+                font-size: 1rem;
+                font-weight: 100;
+                margin-top: 1.5rem;
+                margin-left: 4rem;
+                margin-right: 4rem;
+                margin-bottom: 1.5rem;
+                color: white;
+            }
+        }
+
+        .diarios {
+            display: inline-block;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+
+            a {
+
+                img {
+                    padding-left: 0.5rem;
+                    padding-right: 0.5rem;
+                    padding-top: 0.5rem;
+                    padding-bottom: 0.5rem;
+                    margin-bottom: 0.5rem;
+                    width: 100px;
+                    height: auto;
+                    border: solid;
+                    color: white;
+                    transition-property: width;
+                    transition-duration: 1s;
+
+                    &:hover {
+                        width: 120px;
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+
+/*----------media querys nosotras tablet-------*/
+@media screen and (max-width: 750px) {
+    main {
+
+        .perfil-contadoras {
+            display: flex;
+            justify-content: center;
+            font-family: 'Fredoka', sans-serif;
+            font-size: 2rem;
+            font-weight: 300;
+            color: $colorprincipal;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+
+
+        }
+
+        section {
+
+            .perfil-contadoratroiani {
+                font-family: 'Fredoka', sans-serif;
+                font-size: 1.8rem;
+                font-weight: 200;
+                margin-left: 2rem;
+                color: $colorterciario;
+            }
+
+
+            .separacion {
+                display: flex;
+                flex-direction: column;
+
+
+                div {
+                    img {
+                        width: 200px;
+                        height: 200px;
+                        margin-left: 2rem;
+                        box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
+                        -webkit-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
+                        -moz-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
+                        transition-property: all;
+                        transition-duration: 0.5s;
+                        transition-timing-function: linear;
+
+                        &:hover {
+                            width: 210px;
+                            height: 210px;
+                        }
+                    }
+                }
+
+                p {
+                    font-family: 'Fredoka', sans-serif;
+                    font-size: 1rem;
+                    margin-top: 1.5rem;
+                    margin-right: 2rem;
+                    margin-left: 2rem;
+                    background-color: $colorsecundario;
+                    border-radius: 5px;
+                    padding: 1em;
+                    color: whitesmoke;
+                }
+            }
+        }
+
+
+
+        section {
+
+
+            .perfil-contadoralema {
+                display: flex;
+                flex-direction: row-reverse;
+                font-family: 'Fredoka', sans-serif;
+                font-size: 2rem;
+                font-weight: 200;
+                margin-top: 1rem;
+                margin-right: 2rem;
+                color: $colorterciario;
+            }
+
+            .segundaseparacion {
+                display: flex;
+                flex-direction: column;
+
+
+                div {display: flex;
+                    justify-content: right;
+
+
+                    img {
+
+                        width: 200px;
+                        height: 200px;
+                        margin-left: 2rem;
+                        box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
+                        -webkit-box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
+                        -moz-box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
+                        transition-property: all;
+                        transition-duration: 0.5s;
+                        transition-timing-function: linear;
+                        margin-bottom: 1.5rem;
+
+                        &:hover {
+                            width: 210px;
+                            height: 210px;
+                        }
+                    }
+                }
+
+                p {
+                    font-family: 'Fredoka', sans-serif;
+                    font-size: 1rem;
+                    margin-right: 2rem;
+                    margin-left: 2rem;
+                    background-color: $colorsecundario;
+                    border-radius: 5px;
+                    padding: 3em;
+                    color: whitesmoke;
+
+                }
+
+
+            }
+
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------media querys header mobile -------*/
 @media screen and (max-width: 450px) {
     .logoinicial {
         img {
@@ -15,7 +439,7 @@
 
 }
 
-/*----------media querys index-------*/
+/*----------media querys index mobile-------*/
 @media screen and (max-width: 450px) {
     main {
 
@@ -66,7 +490,7 @@
     }
 }
 
-/*----------media querys servicios -------*/
+/*----------media querys servicios mobile -------*/
 @media screen and (max-width: 450px) {
     main {
         .servicios {
@@ -128,10 +552,10 @@
     }
 }
 
-/*----------media querys footer-------*/
+/*----------media querys footer mobile-------*/
 @media screen and (max-width: 450px) {
     .grid-container {
-        grid-template-rows: 100px auto auto auto;
+        grid-template-rows: 40px auto auto 25px;
         grid-template-columns: 1fr;
         grid-template-areas:
             "contacto"
@@ -174,7 +598,7 @@
     }
 }
 
-/*----------media querys noticias-------*/
+/*----------media querys noticias mobile-------*/
 @media screen and (max-width: 450px) {
     main {
         .info-poder {
@@ -213,7 +637,7 @@
     }
 }
 
-/*----------media querys nosotras-------*/
+/*----------media querys nosotras mobile-------*/
 @media screen and (max-width: 450px) {
     main {
         .perfil-contadoras {
@@ -274,7 +698,7 @@
     }
 }
 
-/*----------media querys condiciones-------*/
+/*----------media querys condiciones mobile-------*/
 @media screen and (max-width: 450px) {
     main {
         .condiciones {
