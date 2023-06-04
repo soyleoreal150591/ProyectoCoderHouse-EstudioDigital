@@ -28,12 +28,16 @@
         padding: 0%;
 }
 
+
 .nav-link {
         text-decoration: none;
         font-size: 25px;
         font-family: 'Fredoka', sans-serif;
         font-weight: 200;
+        
 }
+
+
 
 
 
@@ -414,26 +418,34 @@
 
 
 /*--------page_noticias--------*/
-
+.informativo {
+        background-image: url("../image/papel-arrugado.jpeg"); 
+        background-blend-mode: multiply;
+        background-color: rgba(0, 0, 0, 0.3);
+        margin-left: 1em ;
+        margin-right:1em ;
+        
+}
 .info-poder h1 {
-        margin-top: 3rem;
+        padding-top: 3rem;
         font-family: 'Fredoka', sans-serif;
         font-size: 3.5rem;
         font-weight: 200;
-        color: #B4DDDC;
+        color:#B4DDDC;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        text-decoration: underline 0.3rem;
+      
 }
 
 .info-poder p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Fredoka', sans-serif;
         font-size: 1.3rem;
         margin-top: 2rem;
         margin-left: 6rem;
         margin-right: 6rem;
         margin-bottom: 2rem;
+        color: white;
 }
 
 .diarios {
@@ -452,7 +464,8 @@
         width: 200px;
         height: auto;
         border: solid;
-        color: black;
+        color:white;
+        margin-bottom: 0.5rem;
 }
 
 .diarios img:hover {
