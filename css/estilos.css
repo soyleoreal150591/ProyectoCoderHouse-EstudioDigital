@@ -73,10 +73,7 @@ main .hero p {
     width: 300px;
     height: auto;
     border: #b4dddc solid;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
     transition-property: width;
     transition-duration: 1s; }
     .redes div a img:hover {
@@ -391,13 +388,16 @@ main .aclaracioneslegales p {
     padding: 0%;
     margin-left: 1em; }
   .redes div a img {
-    width: 230px;
+    width: 210px;
     height: auto;
     margin-bottom: 1em;
     transition-property: width;
-    transition-duration: 1s; }
+    transition-duration: 1s;
+    padding: 0.5rem;
+    border: #b4dddc solid;
+    margin-bottom: 0%; }
     .redes div a img:hover {
-      width: 250px; } }
+      width: 215px; } }
 
 /*----------media querys footer tablet-------*/
 @media screen and (max-width: 750px) {
@@ -472,7 +472,7 @@ main .aclaracioneslegales p {
     margin-bottom: 1rem;
     list-style: none;
     font-family: 'Fredoka', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 200;
     color: white;
     background-color: #F7C6C6;
@@ -615,6 +615,44 @@ main .aclaracioneslegales p {
       border-radius: 5px;
       padding: 3em;
       color: whitesmoke; } }
+
+@media screen and (max-width: 750px) {
+  main .condiciones {
+    color: #b4dddc;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+  main .aclaracioneslegales h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #F7C6C6; }
+  main .aclaracioneslegales h3 {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: #C7BBDD; }
+  main .aclaracioneslegales p {
+    display: flex;
+    justify-content: left;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; } }
 
 /*----------media querys header mobile -------*/
 @media screen and (max-width: 450px) {
