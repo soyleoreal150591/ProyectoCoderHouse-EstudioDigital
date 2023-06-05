@@ -663,64 +663,80 @@ main .aclaracioneslegales p {
 /*----------media querys index mobile-------*/
 @media screen and (max-width: 450px) {
   main .hero h1 {
-    font-size: 2em;
-    margin-left: 1em;
+    font-size: 1.5em;
+    margin-left: 1.8em;
     margin-right: 1em;
-    margin-top: 1em; }
+    margin-top: 1em;
+    margin-bottom: 0%; }
   main .hero p {
     margin-left: 1em;
     margin-right: 1em;
-    font-size: 1em; }
+    font-size: 0.9em;
+    margin-top: 1em; }
   .redes h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 0.5em;
     padding: 0%;
     margin-left: 1em; }
   .redes div a img {
-    width: 230px;
+    width: 150px;
     height: auto;
     margin-bottom: 1em;
     transition-property: width;
-    transition-duration: 1s; }
+    transition-duration: 0.5s; }
     .redes div a img:hover {
-      width: 250px; } }
+      width: 155px; } }
 
 /*----------media querys servicios mobile -------*/
 @media screen and (max-width: 450px) {
+  main .presentacionservice {
+    background-image: url("../image/pexels-cup-of-couple-6177607.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: 100%;
+    background-position: bottom;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0%; }
   main .servicios {
-    margin-left: 1em;
-    margin-right: auto;
-    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.2em;
     font-weight: 300;
     color: #b4dddc;
-    margin-top: 1em;
-    margin-bottom: 1em; }
+    padding-top: 1.3em; }
   main section .conociendopack h2 {
     margin-bottom: 1rem;
     font-family: 'Fredoka', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 200;
     color: #F7C6C6; }
   main section .conociendopack p {
     display: flex;
     justify-content: center;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    font-size: 1em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 0.9em;
+    font-family: 'Fredoka', sans-serif;
+    padding: 0%; }
   main section .distinciondeservicios li {
-    margin-left: 4rem;
+    margin-left: 0%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     list-style: none;
     font-family: 'Fredoka', sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 200;
     color: #F7C6C6;
     display: flex;
     justify-content: left; }
   main section .distinciondeservicios p {
-    margin-left: 4rem;
+    margin-left: 1rem;
     margin-right: 4rem;
     font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; } }
@@ -728,35 +744,32 @@ main .aclaracioneslegales p {
 /*----------media querys footer mobile-------*/
 @media screen and (max-width: 450px) {
   .grid-container {
-    grid-template-rows: 40px auto auto 25px;
+    grid-template-rows: 30px auto auto 25px;
     grid-template-columns: 1fr;
     grid-template-areas: "contacto" "informacion" "diseño" "frase"; }
     .grid-container .grid-contacto {
-      font-size: 0.8em; }
+      font-size: 0.7em; }
     .grid-container .grid-info ul li {
-      font-size: 1em;
-      margin-left: 1em; }
+      font-size: 0.9em;
+      margin-left: 0.1em; }
     .grid-container .grid-diseño {
       display: flex;
       justify-content: center; }
       .grid-container .grid-diseño img {
-        width: 120px;
+        width: 100px;
         height: auto;
         margin: 0%; }
     .grid-container .grid-frase p {
       display: flex;
       justify-content: center;
-      font-size: 1em; } }
+      font-size: 0.9em; } }
 
 /*----------media querys noticias mobile-------*/
 @media screen and (max-width: 450px) {
   main .info-poder h1 {
-    font-size: 25px;
-    text-decoration: underline 0.5rem; }
+    font-size: 1.5em; }
   main .info-poder p {
-    font-size: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem; }
+    font-size: 1rem; }
   main .diarios {
     flex-direction: column;
     align-items: center; }
@@ -804,14 +817,16 @@ main .aclaracioneslegales p {
 /*----------media querys condiciones mobile-------*/
 @media screen and (max-width: 450px) {
   main .condiciones {
+    text-align: center;
     margin-left: 0.5em;
     margin-right: 0.5em;
-    font-size: 2em;
+    font-size: 2.2em;
     font-style: normal;
     font-weight: 200;
     margin-top: 2rem;
     margin-bottom: 2rem; }
   main .aclaracioneslegales h2 {
+    text-align: center;
     margin-left: 0.5em;
     margin-right: 0.5em;
     font-size: 1.5em;
