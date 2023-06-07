@@ -554,19 +554,25 @@ main .aclaracioneslegales p {
   main section .separacion {
     display: flex;
     flex-direction: column; }
-    main section .separacion div img {
-      width: 200px;
-      height: 200px;
+    main section .separacion div {
+      background-color: #C7BBDD;
       margin-left: 2rem;
-      box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
-      -webkit-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
-      -moz-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
-      transition-property: all;
-      transition-duration: 0.5s;
-      transition-timing-function: linear; }
-      main section .separacion div img:hover {
-        width: 210px;
-        height: 210px; }
+      margin-right: 2rem;
+      border-radius: 5px; }
+      main section .separacion div img {
+        width: 200px;
+        height: 200px;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
+        -webkit-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
+        -moz-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: linear; }
+        main section .separacion div img:hover {
+          width: 210px;
+          height: 210px; }
     main section .separacion p {
       font-family: 'Fredoka', sans-serif;
       font-size: 1rem;
@@ -590,6 +596,10 @@ main .aclaracioneslegales p {
     display: flex;
     flex-direction: column; }
     main section .segundaseparacion div {
+      background-color: #C7BBDD;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      border-radius: 5px;
       display: flex;
       justify-content: right; }
       main section .segundaseparacion div img {
@@ -609,6 +619,7 @@ main .aclaracioneslegales p {
     main section .segundaseparacion p {
       font-family: 'Fredoka', sans-serif;
       font-size: 1rem;
+      margin-top: 1rem;
       margin-right: 2rem;
       margin-left: 2rem;
       background-color: #C7BBDD;
@@ -616,6 +627,7 @@ main .aclaracioneslegales p {
       padding: 3em;
       color: whitesmoke; } }
 
+/*----------media query condiciones tablet-------*/
 @media screen and (max-width: 750px) {
   main .condiciones {
     color: #b4dddc;
@@ -766,22 +778,22 @@ main .aclaracioneslegales p {
 
 /*----------media querys noticias mobile-------*/
 @media screen and (max-width: 450px) {
-  main .info-poder h1 {
-    font-size: 1.5em; }
-  main .info-poder p {
-    font-size: 1rem; }
-  main .diarios {
+  .informativo .info-poder h1 {
+    font-size: 1.8em; }
+  .informativo .info-poder p {
+    font-size: 1em; }
+  .informativo .diarios {
     flex-direction: column;
     align-items: center; }
-    main .diarios a img {
+    .informativo .diarios a img {
       width: 150px;
       height: auto;
       padding: 1rem;
       margin-bottom: 10px;
       transition-property: width;
       transition-duration: 1s; }
-      main .diarios a img:hover {
-        width: 170px; } }
+      .informativo .diarios a img:hover {
+        width: 160px; } }
 
 /*----------media querys nosotras mobile-------*/
 @media screen and (max-width: 450px) {
