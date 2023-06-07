@@ -6,6 +6,7 @@
   box-sizing: border-box; }
 
 /*---paleta de colores---*/
+/*----extend----*/
 header .logoinicial {
   display: flex;
   justify-content: center; }
@@ -814,7 +815,7 @@ main .aclaracioneslegales p {
       font-size: 1em; }
   main section .perfil-contadoralema {
     display: flex;
-    justify-content: left;
+    justify-content: right;
     margin-left: 0.5em;
     font-size: 2em; }
   main section .segundaseparacion {

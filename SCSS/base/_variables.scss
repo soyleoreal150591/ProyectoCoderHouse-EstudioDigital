@@ -2,5 +2,11 @@
 $colorprincipal:#b4dddc;
 $colorsecundario:#C7BBDD;
 $colorterciario: #F7C6C6;
-$letrafooter:white;
+$colortexto:white;
 
+/*----extend----*/
+%flex{
+    display:flex; 
+    justify-content:center;
+    align-items: center;
+}

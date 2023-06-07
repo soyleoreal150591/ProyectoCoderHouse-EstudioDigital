@@ -172,7 +172,7 @@
                 font-size: 1rem;
                 font-weight: 300;
                 font-family: 'Fredoka', sans-serif;
-                color: white;
+                color: $colortexto;
                 padding-left: 2rem;
                 padding-right: 2rem;
             }
@@ -189,7 +189,7 @@
                 font-family: 'Fredoka', sans-serif;
                 font-size: 1.3rem;
                 font-weight: 200;
-                color: white;
+                color:$colortexto;
                 background-color: #F7C6C6;
                 padding: 0.1em;
             }
@@ -240,7 +240,7 @@
                 margin-left: 4rem;
                 margin-right: 4rem;
                 margin-bottom: 1.5rem;
-                color: white;
+                color: $colortexto;
             }
         }
 
@@ -262,7 +262,7 @@
                     width: 100px;
                     height: auto;
                     border: solid;
-                    color: white;
+                    color:$colortexto;
                     transition-property: width;
                     transition-duration: 1s;
 
@@ -750,7 +750,7 @@
         section {
             .perfil-contadoralema {
                 display: flex;
-                justify-content: left;
+                justify-content: right;
                 margin-left: 0.5em;
                 font-size: 2em;
             }
