@@ -780,6 +780,7 @@ main .aclaracioneslegales p {
 /*----------media querys noticias mobile-------*/
 @media screen and (max-width: 450px) {
   .informativo .info-poder h1 {
+    text-align: center;
     font-size: 1.8em; }
   .informativo .info-poder p {
     font-size: 1em; }
@@ -799,6 +800,7 @@ main .aclaracioneslegales p {
 /*----------media querys nosotras mobile-------*/
 @media screen and (max-width: 450px) {
   main .perfil-contadoras {
+    text-align: center;
     font-size: 2em;
     margin-top: 1rem;
     margin-bottom: 1rem;
