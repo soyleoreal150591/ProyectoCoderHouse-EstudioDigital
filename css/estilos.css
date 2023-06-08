@@ -683,7 +683,8 @@ main .aclaracioneslegales p {
     margin-left: 1.8em;
     margin-right: 1em;
     margin-top: 1em;
-    margin-bottom: 0%; }
+    margin-bottom: 0%;
+    text-align: center; }
   main .hero p {
     margin-left: 1em;
     margin-right: 1em;
