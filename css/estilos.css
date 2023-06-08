@@ -5,8 +5,16 @@
   padding: 0%;
   box-sizing: border-box; }
 
-/*---paleta de colores---*/
+/*----variablecolor----*/
 /*----extend----*/
+main .hero h1, .redes h2, main .servicios, main .conociendopack h2, .informativo .info-poder h1, main .perfil-contadoras, main .condiciones, main .aclaracioneslegales h2 {
+  display: flex;
+  justify-content: center; }
+
+main .distinciondeservicios p {
+  display: flex;
+  justify-content: left; }
+
 header .logoinicial {
   display: flex;
   justify-content: center; }
@@ -33,8 +41,6 @@ main .hero h1 {
   font-size: 3rem;
   font-style: normal;
   font-weight: 300;
-  display: flex;
-  justify-content: center;
   margin-top: 4rem; }
 
 main .hero p {
@@ -52,8 +58,6 @@ main .hero p {
   align-items: center; }
 
 .redes h2 {
-  display: flex;
-  justify-content: center;
   color: #C7BBDD;
   font-family: 'Fredoka', sans-serif;
   font-size: 3rem;
@@ -94,9 +98,7 @@ main .presentacionservice {
   top: 0%; }
 
 main .servicios {
-  display: flex;
   flex-direction: row;
-  justify-content: center;
   font-family: 'Fredoka', sans-serif;
   font-size: 2.5rem;
   font-weight: 300;
@@ -105,8 +107,6 @@ main .servicios {
   margin-bottom: 2rem; }
 
 main .conociendopack h2 {
-  display: flex;
-  justify-content: center;
   margin-bottom: 1rem;
   font-family: 'Fredoka', sans-serif;
   font-size: 2.5rem;
@@ -125,7 +125,7 @@ main .conociendopack p {
 main .distinciondeservicios li {
   display: inline-block;
   border-radius: 10px;
-  margin-left: 4rem;
+  margin-left: 3rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   list-style: none;
@@ -137,10 +137,7 @@ main .distinciondeservicios li {
   padding: 0.1em; }
 
 main .distinciondeservicios p {
-  display: flex;
-  justify-content: left;
   margin-left: 4rem;
-  margin-right: 4rem;
   font-size: 1.3rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
@@ -158,10 +155,7 @@ main .distinciondeservicios p {
     font-family: 'Fredoka', sans-serif;
     font-size: 3.5rem;
     font-weight: 200;
-    color: #b4dddc;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
+    color: #b4dddc; }
   .informativo .info-poder p {
     font-family: 'Fredoka', sans-serif;
     font-size: 1.3rem;
@@ -169,7 +163,8 @@ main .distinciondeservicios p {
     margin-left: 6rem;
     margin-right: 6rem;
     margin-bottom: 2rem;
-    color: white; }
+    color: white;
+    text-align: center; }
   .informativo .diarios {
     display: inline-block;
     display: flex;
@@ -193,8 +188,6 @@ main .distinciondeservicios p {
 
 /*--------main nosotras--------*/
 main .perfil-contadoras {
-  display: flex;
-  justify-content: center;
   font-family: 'Fredoka', sans-serif;
   font-size: 3rem;
   font-weight: 300;
@@ -278,14 +271,10 @@ main .condiciones {
   font-size: 3.4rem;
   font-style: normal;
   font-weight: 200;
-  display: flex;
-  justify-content: center;
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
 main .aclaracioneslegales h2 {
-  display: flex;
-  justify-content: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
   font-family: 'Fredoka', sans-serif;
@@ -294,19 +283,15 @@ main .aclaracioneslegales h2 {
   color: #F7C6C6; }
 
 main .aclaracioneslegales h3 {
-  display: flex;
-  justify-content: left;
   margin-bottom: 1rem;
   margin-top: 1rem;
-  margin-left: 2rem;
+  margin-left: 2.5rem;
   font-family: 'Fredoka', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.8em;
   font-weight: 300;
   color: #C7BBDD; }
 
 main .aclaracioneslegales p {
-  display: flex;
-  justify-content: left;
   margin-left: 4rem;
   margin-right: 4rem;
   font-size: 1.3rem;
@@ -636,8 +621,6 @@ main .aclaracioneslegales p {
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 200;
-    display: flex;
-    justify-content: center;
     margin-top: 1rem;
     margin-bottom: 1rem; }
   main .aclaracioneslegales h2 {
@@ -650,14 +633,12 @@ main .aclaracioneslegales p {
     font-weight: 300;
     color: #F7C6C6; }
   main .aclaracioneslegales h3 {
-    display: flex;
-    justify-content: left;
     margin-bottom: 1rem;
     margin-top: 1rem;
     margin-left: 2rem;
     font-family: 'Fredoka', sans-serif;
-    font-size: 1.2em;
-    font-weight: 300;
+    font-size: 1.3em;
+    font-weight: 350;
     color: #C7BBDD; }
   main .aclaracioneslegales p {
     display: flex;

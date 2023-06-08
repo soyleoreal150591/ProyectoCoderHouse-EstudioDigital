@@ -1,12 +1,17 @@
-/*---paleta de colores---*/
-$colorprincipal:#b4dddc;
-$colorsecundario:#C7BBDD;
+/*----variablecolor----*/
+$colorprincipal: #b4dddc;
+$colorsecundario: #C7BBDD;
 $colorterciario: #F7C6C6;
-$colortexto:white;
+$colortexto: white;
+
 
 /*----extend----*/
-%flex{
-    display:flex; 
-    justify-content:center;
-    align-items: center;
+%flex-centrado {
+    display: flex;
+    justify-content: center;
+}
+
+%flex-izquierdo {
+    display: flex;
+    justify-content: left;
 }
