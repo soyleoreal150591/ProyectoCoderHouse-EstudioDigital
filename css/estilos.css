@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -7,14 +8,6 @@
 
 /*----variablecolor----*/
 /*----extend----*/
-main .hero h1, .redes h2, main .servicios, main .conociendopack h2, .informativo .info-poder h1, main .perfil-contadoras, main .condiciones, main .aclaracioneslegales h2 {
-  display: flex;
-  justify-content: center; }
-
-main .distinciondeservicios p {
-  display: flex;
-  justify-content: left; }
-
 header .logoinicial {
   display: flex;
   justify-content: center; }
@@ -25,331 +18,283 @@ header img {
 
 header .navbar-nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
   padding: 0%; }
   header .navbar-nav .nav-item .nav-link {
-    text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Fredoka', sans-serif;
-    font-weight: 200; }
+    font-weight: 200;
+    transition: transform 0.3s ease; }
+    header .navbar-nav .nav-item .nav-link:hover {
+      font-size: 33px;
+      transform: scale(1.1);
+      font-weight: 400; }
+  header .navbar-nav:hover .nav-item .nav-link {
+    font-size: 30px; }
 
 /*--------main index--------*/
-main .hero h1 {
-  color: #b4dddc;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 3rem;
-  font-style: normal;
-  font-weight: 300;
-  margin-top: 4rem; }
+main .hero {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("../image/puente-mujer.jpeg");
+  background-blend-mode: multiply;
+  background-position: cover;
+  background-position-y: 80%;
+  width: 100%;
+  height: 300px; }
+  main .hero h1 {
+    text-align: left;
+    color: #fdfafa;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+    padding-top: 2rem;
+    padding-left: 4rem; }
+  main .hero p {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 1em;
+    padding-left: 4em;
+    padding-right: 3rem; }
 
-main .hero p {
-  font-family: 'Fredoka', sans-serif;
-  font-size: 1.3rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-top: 2rem;
-  margin-right: 8rem;
-  margin-bottom: 1rem;
-  margin-left: 8rem;
-  display: flex;
-  align-items: center; }
-
-.redes h2 {
-  color: #C7BBDD;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 3rem;
-  font-style: normal;
-  font-weight: 300;
-  padding-right: 3rem;
-  padding-left: 3rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 2rem;
-  margin-top: 3rem; }
-
-.redes div {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap; }
-  .redes div a img {
-    width: 300px;
-    height: auto;
-    border: #b4dddc solid;
-    padding: 1rem;
-    transition-property: width;
-    transition-duration: 1s; }
-    .redes div a img:hover {
-      width: 320px; }
+.presentacion-principal {
+  padding-bottom: 1rem; }
+  .presentacion-principal .atencionempresa {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 0%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem; }
+  .presentacion-principal p {
+    padding-left: 5rem;
+    padding-right: 3rem;
+    font-family: 'DM Sans', sans-serif; }
+  .presentacion-principal .btn-info-uno {
+    background-color: #0e0e0e;
+    margin-left: 5rem;
+    border-radius: 10px;
+    border-color: black; }
+    .presentacion-principal .btn-info-uno .simple-linear {
+      background: linear-gradient(blue, pink); }
+    .presentacion-principal .btn-info-uno a {
+      color: white;
+      font-weight: 500;
+      font-family: 'DM Sans', sans-serif;
+      padding: 1rem;
+      text-decoration: none; }
+      .presentacion-principal .btn-info-uno a:hover {
+        color: #fff;
+        text-decoration: underline; }
+  .presentacion-principal .atencionemprendedor {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 0%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem; }
+  .presentacion-principal .btn-empresa {
+    background-color: #0e0e0e;
+    margin-left: 5rem;
+    border-radius: 10px;
+    border-color: black;
+    color: white; }
+    .presentacion-principal .btn-empresa a {
+      color: white;
+      font-weight: 500;
+      font-family: 'DM Sans', sans-serif;
+      text-decoration: none;
+      padding: 1rem; }
+      .presentacion-principal .btn-empresa a:hover {
+        color: #fff;
+        text-decoration: underline; }
 
 /*--------main  servicios--------*/
-main .presentacionservice {
-  background-image: url("../image/pexels-cup-of-couple-6177607.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 300px;
-  background-size: 100%;
-  background-position: bottom;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.3);
-  position: sticky;
-  top: 0%; }
+main .servicio-presentacion .service-modern {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 0%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 5rem; }
 
-main .servicios {
+main .servicio-presentacion p {
+  font-size: 1.3rem;
+  padding-left: 5rem; }
+
+main .prueba-division {
+  display: flex;
   flex-direction: row;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 300;
-  color: #b4dddc;
-  padding-top: 4rem;
-  margin-bottom: 2rem; }
-
-main .conociendopack h2 {
-  margin-bottom: 1rem;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 200;
-  color: #C7BBDD; }
-
-main .conociendopack p {
-  text-align: center;
-  font-size: 1.3rem;
-  font-weight: 300;
-  font-family: 'Fredoka', sans-serif;
-  color: white;
-  padding-left: 5em;
-  padding-right: 5em; }
-
-main .distinciondeservicios li {
-  display: inline-block;
-  border-radius: 10px;
-  margin-left: 3rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  list-style: none;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 2rem;
-  font-weight: 200;
-  color: white;
-  background-color: #F7C6C6;
-  padding: 0.1em; }
-
-main .distinciondeservicios p {
-  margin-left: 4rem;
-  font-size: 1.3rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-
-/*--------main noticias--------*/
-.informativo {
-  background-image: url("../image/papel-arrugado.jpeg");
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-right: 20px; }
-  .informativo .info-poder h1 {
-    padding-top: 3rem;
-    font-family: 'Fredoka', sans-serif;
-    font-size: 3.5rem;
-    font-weight: 200;
-    color: #b4dddc; }
-  .informativo .info-poder p {
-    font-family: 'Fredoka', sans-serif;
-    font-size: 1.3rem;
-    margin-top: 2rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-bottom: 2rem;
-    color: white;
-    text-align: center; }
-  .informativo .diarios {
-    display: inline-block;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding-left: 5rem;
+  gap: 1.5rem;
+  padding-bottom: 1.3rem; }
+  main .prueba-division .contenedor1 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap; }
-    .informativo .diarios a img {
-      padding-left: 0.5rem;
+    padding-top: 2rem;
+    width: 550px;
+    position: relative;
+    transition: all 1.3s; }
+    main .prueba-division .contenedor1:hover {
+      transform: scale(1.1); }
+    main .prueba-division .contenedor1 img {
+      width: 140px;
+      height: 140px;
+      border-radius: 20px; }
+    main .prueba-division .contenedor1 div {
+      padding-left: 1rem;
       padding-right: 0.5rem;
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-      margin-bottom: 0.5rem;
-      width: 200px;
-      height: auto;
-      border: solid;
-      color: white;
-      transition-property: width;
-      transition-duration: 1s; }
-      .informativo .diarios a img:hover {
-        width: 230px; }
+      display: inline; }
+      main .prueba-division .contenedor1 div h2 {
+        margin: 0%;
+        padding: 0%; }
+    main .prueba-division .contenedor1 p {
+      margin: 0%;
+      padding: 0%;
+      display: inline; }
 
 /*--------main nosotras--------*/
-main .perfil-contadoras {
-  font-family: 'Fredoka', sans-serif;
-  font-size: 3rem;
-  font-weight: 300;
-  color: #b4dddc;
-  margin-top: 3rem;
-  margin-bottom: 2rem; }
+.contadoras-ml section p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  padding-top: 3rem;
+  margin-left: 6rem;
+  margin-right: 6rem; }
 
-main section .perfil-contadoratroiani {
-  font-family: 'Fredoka', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 200;
-  margin-left: 2rem;
-  color: #F7C6C6; }
+.contadoras-ml section #carouselExampleIndicators {
+  margin: auto;
+  width: 60%; }
+  .contadoras-ml section #carouselExampleIndicators .carousel-inner {
+    border-radius: 20px; }
 
-main section .separacion {
+.contadoras-ml .perfil-profesional {
   display: flex;
-  flex-direction: row; }
-  main section .separacion div img {
-    width: 300px;
-    height: 300px;
-    margin-left: 2rem;
-    box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
-    -webkit-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
-    -moz-box-shadow: 17px 19px 9px 0px rgba(48, 47, 58, 0.91);
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: linear; }
-    main section .separacion div img:hover {
-      width: 310px;
-      height: 310px; }
-  main section .separacion p {
-    font-family: 'Fredoka', sans-serif;
-    font-size: 1.3rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    background-color: #C7BBDD;
-    border-radius: 5px;
-    padding: 3em;
-    color: whitesmoke; }
-
-main section .perfil-contadoralema {
-  display: flex;
-  flex-direction: row-reverse;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 200;
-  margin-top: 1rem;
-  margin-right: 2rem;
-  color: #F7C6C6; }
-
-main section .segundaseparacion {
-  display: flex;
-  flex-direction: row-reverse; }
-  main section .segundaseparacion div img {
-    width: 300px;
-    height: 300px;
-    margin-right: 2rem;
-    box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
-    -webkit-box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
-    -moz-box-shadow: -20px 19px 9px 0px rgba(48, 47, 58, 0.91);
-    transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: linear; }
-    main section .segundaseparacion div img:hover {
-      width: 310px;
-      height: 310px; }
-  main section .segundaseparacion p {
-    font-family: 'Fredoka', sans-serif;
-    font-size: 1.3rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    background-color: #C7BBDD;
-    border-radius: 5px;
-    padding: 3em;
-    color: whitesmoke; }
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-top: 3rem;
+  gap: 3rem; }
+  .contadoras-ml .perfil-profesional .presentacion-lema img {
+    padding-bottom: 1rem;
+    padding-left: 1rem; }
+  .contadoras-ml .perfil-profesional .presentacion-lema h2 {
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    margin: 0;
+    display: inline-block; }
+  .contadoras-ml .perfil-profesional .presentacion-lema .conectar {
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    display: inline-block;
+    transition: transform 1.3s; }
+    .contadoras-ml .perfil-profesional .presentacion-lema .conectar:hover {
+      transform: rotateX(360deg); }
+  .contadoras-ml .perfil-profesional .presentacion-lema img {
+    padding-bottom: 0.7rem;
+    padding-left: 0.5rem; }
+  .contadoras-ml .perfil-profesional .presentacion-lema p {
+    padding: 0%;
+    margin: 0%;
+    padding-left: 1rem;
+    font-family: 'DM Sans', sans-serif; }
+    .contadoras-ml .perfil-profesional .presentacion-lema p a {
+      color: black;
+      text-decoration: none; }
+  .contadoras-ml .perfil-profesional .presentacion-lema span p {
+    padding-bottom: 1rem; }
+  .contadoras-ml .perfil-profesional .presentacion-troiani img {
+    padding-bottom: 1rem;
+    padding-left: 3rem; }
+  .contadoras-ml .perfil-profesional .presentacion-troiani h2 {
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    padding-left: 1rem;
+    margin: 0;
+    display: inline-block; }
+  .contadoras-ml .perfil-profesional .presentacion-troiani .conectar {
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    display: inline-block;
+    transition: transform 1.3s; }
+    .contadoras-ml .perfil-profesional .presentacion-troiani .conectar:hover {
+      transform: rotateX(360deg); }
+    .contadoras-ml .perfil-profesional .presentacion-troiani .conectar img {
+      padding-bottom: 0.7rem;
+      padding-left: 0.5rem; }
+    .contadoras-ml .perfil-profesional .presentacion-troiani .conectar a {
+      color: black;
+      text-decoration: none; }
+  .contadoras-ml .perfil-profesional .presentacion-troiani p {
+    padding: 0%;
+    margin: 0%;
+    padding-left: 3rem;
+    font-family: 'DM Sans', sans-serif;
+    display: inline-block; }
+  .contadoras-ml .perfil-profesional .presentacion-troiani span p {
+    padding-bottom: 1rem; }
 
 /*--------main condiciones--------*/
-main .condiciones {
-  color: #b4dddc;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 3.4rem;
-  font-style: normal;
-  font-weight: 200;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
-
-main .aclaracioneslegales h2 {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 300;
-  color: #F7C6C6; }
-
-main .aclaracioneslegales h3 {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  margin-left: 2.5rem;
-  font-family: 'Fredoka', sans-serif;
-  font-size: 1.8em;
-  font-weight: 300;
-  color: #C7BBDD; }
-
-main .aclaracioneslegales p {
-  margin-left: 4rem;
-  margin-right: 4rem;
-  font-size: 1.3rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+.main-contacto {
+  background-image: url("../image/donny-jiang-42gFAgdIUC8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: left; }
+  .main-contacto .planilla-contacto {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 6rem;
+    margin-right: 6rem; }
+    .main-contacto .planilla-contacto div {
+      background-color: white;
+      box-shadow: 5px 5px 10px;
+      border-radius: 10px;
+      padding: 1rem; }
+      .main-contacto .planilla-contacto div a {
+        text-decoration: underline;
+        color: black; }
+      .main-contacto .planilla-contacto div p {
+        font-size: 1.5rem; }
 
 /*--------footer--------*/
-.grid-container {
-  margin-top: 2em;
-  margin-right: 1em;
-  margin-bottom: 1em;
-  margin-left: 1em;
-  border-style: solid;
-  color: #b4dddc;
-  background-color: #C7BBDD;
-  display: grid;
-  grid-template-rows: 70px 100px 50px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "contacto diseño" "informacion indiseño" "frase frase ";
-  grid-area: diseño; }
-  .grid-container .grid-contacto {
-    grid-area: contacto; }
-    .grid-container .grid-contacto p {
-      color: white;
-      text-decoration: none;
-      font-family: 'Fredoka', sans-serif;
-      font-weight: 300;
-      font-size: 2em;
-      margin-left: 1em;
-      margin-bottom: 0%; }
-  .grid-container .grid-info {
-    grid-area: informacion; }
-    .grid-container .grid-info li {
-      margin-left: 1.5rem;
-      font-style: normal;
-      font-family: 'Fredoka', sans-serif;
-      color: white;
-      font-size: 1.5rem;
-      list-style: circle;
-      font-weight: 300; }
-  .grid-container .grid-diseño {
-    display: flex;
-    justify-content: right;
-    margin-right: 1em; }
-  .grid-container img {
-    width: 200px;
-    height: 200px;
-    margin-right: 3em; }
-
-.grid-frase {
-  grid-area: frase; }
-  .grid-frase p {
-    font-weight: 200;
-    font-size: 1.5rem;
-    font-family: 'Fredoka', sans-serif;
-    color: white;
-    display: flex;
-    justify-content: end;
-    padding-right: 1rem; }
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #212529;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  padding-top: 1rem;
+  font-family: 'Fredoka', sans-serif; }
+  footer p {
+    margin-bottom: 0%; }
+    footer p img {
+      margin-right: 10px; }
+  footer a {
+    color: #ecf0f1;
+    text-decoration: none; }
+    footer a:hover {
+      color: #fff;
+      text-decoration: underline; }
+  footer .mail-asesoria img {
+    margin-right: 10px; }
 
 /*----------media querys header tablet -------*/
 @media screen and (max-width: 750px) {
