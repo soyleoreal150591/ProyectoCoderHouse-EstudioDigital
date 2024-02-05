@@ -173,11 +173,35 @@ main {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: left;
 
-        a {
+        padding-left: 5rem;
+        gap: 1.5rem;
+        padding-bottom: 1.3rem;;
+
+        .contenedor1 {
+            display: flex;
+            padding-top: 2rem;
+            width: 550px;
+            position: relative;
+
+            transition: all 1.3s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
 
             img {
-                padding-left: 0.5rem;
+                width: 140px;
+                height: 140px;
+                border-radius: 20px;
+
+
+            }
+
+            div {
+                padding-left: 1rem;
                 padding-right: 0.5rem;
 
                 h2 {
@@ -380,43 +404,46 @@ main {
 
 
 /*--------main condiciones--------*/
-main {
-    .condiciones {@extend %flex-centrado;
-        color: $colorprincipal;
-        font-family: 'Fredoka', sans-serif;
-        font-size: 3.4rem;
-        font-style: normal;
-        font-weight: 200;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+.main-contacto {
+    
+    background-image: url("../image/donny-jiang-42gFAgdIUC8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  
+    .planilla-contacto {
+       
+      
+    
+        padding-top: 3rem; 
+        padding-bottom: 3rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+      
+        div {
+            
+            background-color: white;
+            box-shadow: 5px 5px 10px; 
+            border-radius: 10px;
+            padding: 1rem;
+
+            a {
+            text-decoration:underline;
+            color: black;
+            }
+
+            p {
+
+                font-size: 1.5rem;
+           
+
+          
+            }
+          
+
+        }
+
     }
-
-    .aclaracioneslegales {
-        h2 {
-            @extend %flex-centrado;
-            margin-bottom: 1rem;
-            margin-top: 1rem;
-            font-family: 'Fredoka', sans-serif;
-            font-size: 2.5rem;
-            font-weight: 300;
-            color: $colorterciario;
-        }
-
-        h3 {
-            margin-bottom: 1rem;
-            margin-top: 1rem;
-            margin-left: 2.5rem;
-            font-family: 'Fredoka', sans-serif;
-            font-size: 1.8em;
-            font-weight: 300;
-            color: $colorsecundario;
-        }
-
-        p {
-            margin-left: 4rem;
-            margin-right: 4rem;
-            font-size: 1.3rem;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-    }
-}
+} 
