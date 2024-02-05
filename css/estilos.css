@@ -139,8 +139,12 @@ main .prueba-division {
   flex-wrap: wrap;
   justify-content: left;
   padding-left: 5rem;
+<<<<<<< HEAD
   gap: 1.5rem;
   padding-bottom: 1.3rem; }
+=======
+  gap: 1.5rem; }
+>>>>>>> origin/main
   main .prueba-division .contenedor1 {
     display: flex;
     padding-top: 2rem;
@@ -255,13 +259,19 @@ main .prueba-division {
   background-repeat: no-repeat;
   background-position: cover;
   display: flex;
+<<<<<<< HEAD
   flex-direction: row;
   justify-content: left; }
   .main-contacto .planilla-contacto {
+=======
+  flex-direction: column; }
+  .main-contacto #planilla-contacto {
+>>>>>>> origin/main
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-left: 6rem;
     margin-right: 6rem; }
+<<<<<<< HEAD
     .main-contacto .planilla-contacto div {
       background-color: white;
       box-shadow: 5px 5px 10px;
@@ -272,6 +282,22 @@ main .prueba-division {
         color: black; }
       .main-contacto .planilla-contacto div p {
         font-size: 1.5rem; }
+=======
+    .main-contacto #planilla-contacto div {
+      display: inline-block;
+      background-color: white;
+      box-shadow: 5px 5px 10px;
+      border-radius: 10px; }
+      .main-contacto #planilla-contacto div p {
+        font-size: 1rem; }
+      .main-contacto #planilla-contacto div div {
+        display: inline-block;
+        background-color: white;
+        box-shadow: 5px 5px 10px;
+        border-radius: 10px; }
+        .main-contacto #planilla-contacto div div p {
+          font-size: 1rem; }
+>>>>>>> origin/main
 
 /*--------footer--------*/
 footer {
@@ -282,7 +308,12 @@ footer {
   padding: 20px;
   text-align: center;
   padding-top: 1rem;
+<<<<<<< HEAD
   font-family: 'Fredoka', sans-serif; }
+=======
+  font-family: 'Fredoka', sans-serif;
+  margin-top: 1rem; }
+>>>>>>> origin/main
   footer p {
     margin-bottom: 0%; }
     footer p img {
