@@ -173,6 +173,7 @@ main {
         padding-left: 5rem;
         padding-bottom: 1rem;
         gap: 1.5rem;
+        padding-bottom: 1.3rem;;
 
         .contenedor1 {
             display: flex;
@@ -400,6 +401,7 @@ main {
 
 /*--------main condiciones--------*/
 .main-contacto {
+    
     background-image: url("../image/donny-jiang-42gFAgdIUC8-unsplash.jpg");
     background-repeat: no-repeat;
     background-position: cover;
@@ -407,37 +409,35 @@ main {
     flex-direction: column;
 
     #planilla-contacto {
-        padding-top: 3rem;
+        padding-top: 3rem; 
         padding-bottom: 3rem;
         margin-left: 6rem;
         margin-right: 6rem;
 
         div {
-            display: inline-block;
+            
             background-color: white;
             box-shadow: 5px 5px 10px;
             border-radius: 10px;
-
             p {
-                font-size: 1.3rem;
-                padding: 1rem;
-                margin: 0;
-                
-                a {
-                    text-decoration: none;
-                    font-size: 1.5rem;
-                    color:black;
-                    
-                     }
-                     & :hover {
-                        text-decoration: underline;
+                font-size: 1rem;
+           
+
+          
+            }
+            div {
+                display: inline-block;
+                background-color: white;
+                box-shadow: 5px 5px 10px; 
+                border-radius: 10px;
+                p {
+                    font-size: 1rem;
+               
+    
+              
                 }
 
-
-
-            }
-
-        
         }
+
     }
-}
+} }
