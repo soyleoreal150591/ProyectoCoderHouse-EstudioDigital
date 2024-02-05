@@ -82,8 +82,6 @@ main .hero {
     margin-left: 5rem;
     border-radius: 10px;
     border-color: black; }
-    .presentacion-principal .btn-info-uno .simple-linear {
-      background: linear-gradient(blue, pink); }
     .presentacion-principal .btn-info-uno a {
       color: white;
       font-weight: 500;
@@ -139,6 +137,7 @@ main .prueba-division {
   flex-wrap: wrap;
   justify-content: left;
   padding-left: 5rem;
+  padding-bottom: 1rem;
   gap: 1.5rem; }
   main .prueba-division .contenedor1 {
     display: flex;
@@ -266,14 +265,15 @@ main .prueba-division {
       box-shadow: 5px 5px 10px;
       border-radius: 10px; }
       .main-contacto #planilla-contacto div p {
-        font-size: 1rem; }
-      .main-contacto #planilla-contacto div div {
-        display: inline-block;
-        background-color: white;
-        box-shadow: 5px 5px 10px;
-        border-radius: 10px; }
-        .main-contacto #planilla-contacto div div p {
-          font-size: 1rem; }
+        font-size: 1.3rem;
+        padding: 1rem;
+        margin: 0; }
+        .main-contacto #planilla-contacto div p a {
+          text-decoration: none;
+          font-size: 1.5rem;
+          color: black; }
+        .main-contacto #planilla-contacto div p :hover {
+          text-decoration: underline; }
 
 /*--------footer--------*/
 footer {
@@ -283,9 +283,9 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
   font-family: 'Fredoka', sans-serif;
-  margin-top: 1rem; }
+  padding-top: 1rem; }
   footer p {
     margin-bottom: 0%; }
     footer p img {

@@ -74,13 +74,8 @@ main {
 
 
     .btn-info-uno {
-        .simple-linear {
-            background: linear-gradient(blue, pink);
-        }
 
         background-color: rgb(14, 14, 14);
-
-
         margin-left: 5rem;
         border-radius: 10px;
         border-color: black;
@@ -176,6 +171,7 @@ main {
         justify-content: left;
 
         padding-left: 5rem;
+        padding-bottom: 1rem;
         gap: 1.5rem;
 
         .contenedor1 {
@@ -411,35 +407,37 @@ main {
     flex-direction: column;
 
     #planilla-contacto {
-        padding-top: 3rem; 
+        padding-top: 3rem;
         padding-bottom: 3rem;
         margin-left: 6rem;
         margin-right: 6rem;
-      
+
         div {
             display: inline-block;
             background-color: white;
-            box-shadow: 5px 5px 10px; 
+            box-shadow: 5px 5px 10px;
             border-radius: 10px;
-            p {
-                font-size: 1rem;
-           
 
-          
-            }
-            div {
-                display: inline-block;
-                background-color: white;
-                box-shadow: 5px 5px 10px; 
-                border-radius: 10px;
-                p {
-                    font-size: 1rem;
-               
-    
-              
+            p {
+                font-size: 1.3rem;
+                padding: 1rem;
+                margin: 0;
+                
+                a {
+                    text-decoration: none;
+                    font-size: 1.5rem;
+                    color:black;
+                    
+                     }
+                     & :hover {
+                        text-decoration: underline;
                 }
 
-        }
 
+
+            }
+
+        
+        }
     }
-} }
+}
