@@ -74,13 +74,8 @@ main {
 
 
     .btn-info-uno {
-        .simple-linear {
-            background: linear-gradient(blue, pink);
-        }
 
         background-color: rgb(14, 14, 14);
-
-
         margin-left: 5rem;
         border-radius: 10px;
         border-color: black;
@@ -176,6 +171,7 @@ main {
         justify-content: left;
 
         padding-left: 5rem;
+        padding-bottom: 1rem;
         gap: 1.5rem;
         padding-bottom: 1.3rem;;
 
@@ -410,40 +406,38 @@ main {
     background-repeat: no-repeat;
     background-position: cover;
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-  
-    .planilla-contacto {
-       
-      
-    
+    flex-direction: column;
+
+    #planilla-contacto {
         padding-top: 3rem; 
         padding-bottom: 3rem;
         margin-left: 6rem;
         margin-right: 6rem;
-      
+
         div {
             
             background-color: white;
-            box-shadow: 5px 5px 10px; 
+            box-shadow: 5px 5px 10px;
             border-radius: 10px;
-            padding: 1rem;
-
-            a {
-            text-decoration:underline;
-            color: black;
-            }
-
             p {
-
-                font-size: 1.5rem;
+                font-size: 1rem;
            
 
           
             }
-          
+            div {
+                display: inline-block;
+                background-color: white;
+                box-shadow: 5px 5px 10px; 
+                border-radius: 10px;
+                p {
+                    font-size: 1rem;
+               
+    
+              
+                }
 
         }
 
     }
-} 
+} }

@@ -82,8 +82,6 @@ main .hero {
     margin-left: 5rem;
     border-radius: 10px;
     border-color: black; }
-    .presentacion-principal .btn-info-uno .simple-linear {
-      background: linear-gradient(blue, pink); }
     .presentacion-principal .btn-info-uno a {
       color: white;
       font-weight: 500;
@@ -140,9 +138,13 @@ main .prueba-division {
   justify-content: left;
   padding-left: 5rem;
 <<<<<<< HEAD
+  padding-bottom: 1rem;
+=======
+<<<<<<< HEAD
   gap: 1.5rem;
   padding-bottom: 1.3rem; }
 =======
+>>>>>>> main
   gap: 1.5rem; }
 >>>>>>> origin/main
   main .prueba-division .contenedor1 {
@@ -289,6 +291,17 @@ main .prueba-division {
       box-shadow: 5px 5px 10px;
       border-radius: 10px; }
       .main-contacto #planilla-contacto div p {
+<<<<<<< HEAD
+        font-size: 1.3rem;
+        padding: 1rem;
+        margin: 0; }
+        .main-contacto #planilla-contacto div p a {
+          text-decoration: none;
+          font-size: 1.5rem;
+          color: black; }
+        .main-contacto #planilla-contacto div p :hover {
+          text-decoration: underline; }
+=======
         font-size: 1rem; }
       .main-contacto #planilla-contacto div div {
         display: inline-block;
@@ -298,6 +311,7 @@ main .prueba-division {
         .main-contacto #planilla-contacto div div p {
           font-size: 1rem; }
 >>>>>>> origin/main
+>>>>>>> main
 
 /*--------footer--------*/
 footer {
@@ -307,6 +321,11 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
+<<<<<<< HEAD
+  padding-top: 2rem;
+  font-family: 'Fredoka', sans-serif;
+  padding-top: 1rem; }
+=======
   padding-top: 1rem;
 <<<<<<< HEAD
   font-family: 'Fredoka', sans-serif; }
@@ -314,6 +333,7 @@ footer {
   font-family: 'Fredoka', sans-serif;
   margin-top: 1rem; }
 >>>>>>> origin/main
+>>>>>>> main
   footer p {
     margin-bottom: 0%; }
     footer p img {
